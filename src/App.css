@@ -36,3 +36,102 @@
     transform: rotate(360deg);
   }
 }
+:root {
+  scroll-behavior: smooth;
+  
+}
+body::-webkit-scrollbar{
+      display: none;
+  }
+.Pro
+  {
+      text-decoration: none;
+  }
+.Logopori
+  {
+     color: rgba(0, 28, 94, 1);
+     width: 115px;
+     left: 299px;
+     top: 28px
+  }
+.ColorT
+  {
+      color: rgba(0, 28, 94, 1);
+  }
+  .ColorFP
+  {
+      color: rgba(55, 114, 255, 1);
+  }
+.colorC
+  {
+      color: rgba(66, 81, 96, 1);
+  }
+.ColorBest
+  {
+      background-color: #F8F8F9;
+      height: 230px;
+  }
+.ColorRev
+  {
+      width: 424px;
+      height: 291px;
+  }
+.Best
+  {
+      height: 70px;
+      overflow-y: scroll;
+  }
+.Best::-webkit-scrollbar
+  {
+      display: none;
+  }
+.Rev
+  {
+      height: 120px;
+      overflow-y: scroll;
+  }
+.Rev::-webkit-scrollbar
+  {
+      display: none;
+  }
+.StarColor
+  {
+      color: rgba(55, 114, 255, 1);
+  }
+.social
+  {
+      display: flex;
+      justify-content: start;
+  }
+.social i
+  {
+      margin-right: 15px;
+      font-size: 18px;
+      transition: 0.5s;
+   }
+.s-link:hover
+  {
+      font-size: 17px;
+      color: rgba(0, 28, 94, 1);
+  }
+.Text
+  {
+      text-decoration: none;
+      color: rgba(66, 81, 96, 1);
+  }
+
+
+.Textlog
+   {
+      text-decoration: none;
+      color: rgba(0, 28, 94, 1);
+   }
+.error
+   {
+      background: #F2DEDE;
+      color:#A94442;
+      padding: 10px;
+      width: 95%;
+      border-radius: 5px;
+      margin: 20px;
+   }
