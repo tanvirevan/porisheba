@@ -39,7 +39,7 @@ export default function Navbar ()
                <div className={`md:flex items-center gap-5 nav-links duration-500 md:static absolute md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto  w-full ${
                      isSidebarOpen ? 'left-0' : 'left-[100%]'}`}
                >
-                  <Link href='' className={`hover:bg-[#001c5e] hover:text-white hover:px-2 hover:rounded-lg ease-in duration-300 ${pathname === '#' ? 'active': ''}`}>
+                  <Link href='/page/services' className={`hover:bg-[#001c5e] hover:text-white hover:px-2 hover:rounded-lg ease-in duration-300 ${pathname === '/page/services' ? 'active': ''}`}>
                      <Dropdown></Dropdown>
                   </Link>
                   <Link href='/pages/findtasker'className={`hover:bg-[#001c5e] hover:text-white hover:px-4 py-2 hover:rounded-xl ease-in duration-300  ${pathname === '/pages/findtasker' ? 'active': ''}`}>Find Tasker
