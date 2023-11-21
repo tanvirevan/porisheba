@@ -4,12 +4,12 @@ import Hero from "./components/hero_section";
 export default function Login()
    {
       return (
-         <main>
-            <section className="mb-0">
-               <Navbar></Navbar>
-            </section>
+         <body>
+            <main>
+                  <Navbar></Navbar>
+            </main>
             <Hero></Hero>
-         </main>
+         </body>
          
          
 
