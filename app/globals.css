@@ -14,7 +14,7 @@ body {
  }
 
  main {
-   @apply w-3/4  mx-auto px-8;
+   @apply w-11/12 mx-auto px-8;
  }
  main > h2 {
    @apply mb-4 pb-2 text-base ;
