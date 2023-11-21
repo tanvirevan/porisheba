@@ -4,13 +4,9 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
-.center{
-    position: relative;
-}
 body{
     background-color: #fff;
     display: flex;
-    align-items: center;
     height: 100vh;
 }
 

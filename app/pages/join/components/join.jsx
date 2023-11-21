@@ -3,7 +3,7 @@ import './style.css'
 import Link from 'next/link'
 export default function logincomponet() {
   return (
-   <div className='center'>
+   <div>
       <head>
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
          <title>porisheba login</title>

@@ -3,17 +3,17 @@ import Image from 'next/image'
 import heroImage from "../../resorce/hero.png";
 export default function Hero() {
   return (
-    <div className="relative">
+    <div>
       <div className="Hero_img relative">
         <div className="absolute inset-0 w-full h-full bg-gray-900 bg-opacity-50"></div>
         <Image
-          className="w-[100%] h-[600px] bg-cover"
+          className="w-[100%] h-[600px] bg-cover" 
           src={heroImage}
           alt="img"
         />
       </div>
 
-      <div className="text-white  absolute top-[165px] lg:left-[300px]  lg:w-1/2 mt-13 sm:w-full">
+      <div className="text-white  absolute top-[165px] left-[250px] w-1/2 mt-16 ">
         <p className="text-xl font-bold text-gray-200">The Best Place to</p>
         <br />
         <p className="text-4xl font-extrabold">Find Professionals</p>
@@ -43,7 +43,7 @@ export default function Hero() {
               Select a Category
             </option>
             <option className="text-blue-400" value="">
-              Asifer bua($69/night)
+              Select a Category
             </option>
             <option className="text-blue-400" value="">
               Select a Category

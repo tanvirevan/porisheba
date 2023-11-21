@@ -1,7 +1,6 @@
 'use client'
 import { useEffect } from 'react';
-import LoginComp from './components/logincomp'
-import Navbar from '../../global-components/navbar/Navbar'
+import Join from './components/join'
 
 export default function LoginPage() {
    useEffect(() => 
@@ -22,12 +21,7 @@ export default function LoginPage() {
    
     return (
       <main>
-         {/* <div>
-            <Navbar></Navbar>
-         </div> */}
-         <div>
-            <LoginComp></LoginComp>
-         </div>
+         <Join></Join>
       </main>
     )
 }
