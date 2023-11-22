@@ -23,22 +23,14 @@ export default function Hero() {
           <br /> your life better. Your problems rest here
         </p>
         <div className="flex text-black ">
-          <select
-            className="mt-4 py-3 px-5 rounded-md border-none outline-none"
-            name=""
-            id=""
-          >
+          <select className="mt-4 py-3 px-5 rounded-md border-none outline-none" name="" id="">
             <option value="">Select location</option>
             <option value="">Notun Bazar</option>
             <option value="">Notun Bazar</option>
             <option value="">Notun Bazar</option>
           </select>
 
-          <select
-            className="mt-4 ml-5 py-3 px-4 rounded-md text-blue-600 border-none outline-none"
-            name=""
-            id=""
-          >
+          <select className="mt-4 ml-5 py-3 px-4 rounded-md text-blue-600 border-none outline-none" name="" id="">
             <option className="text-blue-400" value="">
               Select a Category
             </option>
@@ -53,10 +45,11 @@ export default function Hero() {
             </option>
           </select>
         </div>
+
         <p className="mt-4 text-gray-300 font-medium">
           Select a category-{" "}
           <span className="text-white font-semibold">
-            Electrician, Plumber{" "}
+            Home Service, Delivery service{" "}
           </span>
           etc.
         </p>

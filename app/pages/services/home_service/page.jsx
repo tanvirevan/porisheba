@@ -5,7 +5,15 @@ export default function HomeService() {
   return (
     <main>
       <Navbar></Navbar>
-      <p>Home services</p>
+      <div className='mt-2'>
+        <section className='w-full h-[80px] bg-gray-100 px-4 shadow-lg'>
+          Category
+        </section>
+
+        <section className='w-full bg-blue-100 mt-2 px-4 shadow-lg'>
+          Home Services
+        </section>
+      </div>
     </main>
   )
 }

@@ -3,19 +3,12 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-*{
-  font-family: 'Montserrat', sans-serif;
-}
 
 body {
    background:#fff;
    @apply text-gray-500;
    color: rgba(0, 28, 94, 0.398)
  }
-section
-  {
-    
-  }
  main {
    @apply w-11/12 mx-auto px-8;
  }

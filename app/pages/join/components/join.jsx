@@ -26,21 +26,21 @@ export default function logincomponet() {
                <span className='mb-2'>or use your email for registration</span>
 
                <div className='singup-name w-full'>
-                  <label for="">Name<span className='text-[red]'>*</span></label>
-                  <input className="border-2 focus:border-[#001c5e] focus:rounded-[14px] ease-in duration-300" type="text" placeholder="your name" required/>
+                  <label className='' for="">Name<span className='text-[red]'>*</span></label>
+                  <input className="shadow-inner border-2 focus:border-[#001c5e] focus:rounded-[14px] ease-in duration-300" type="text" placeholder="Your Name" required/>
                   
                </div>
 
                <div className='singup-name w-full'>
                   <label For="">Email<span className='text-[red]'>*</span></label>
                   <i class="fa-solid fa-envelope"></i>
-                  <input className="border-2 focus:border-[#001c5e] focus:rounded-[14px] ease-in duration-300" type="email" placeholder="example@gmail.com" required/>
+                  <input className="shadow-inner border-2 focus:border-[#001c5e] focus:rounded-[14px] ease-in duration-300" type="email" placeholder="example@gmail.com" required/>
                </div>
                
                <div className='singup-name w-full'>
                   <label For="">Password<span className='text-[red]'>*</span></label>
                   <i class="fa-solid fa-lock"></i>
-                  <input className="border-2 focus:border-[#001c5e] focus:rounded-[14px] ease-in duration-300" type="password" placeholder="8+ strong character" required/>
+                  <input className="shadow-inner border-2 focus:border-[#001c5e] focus:rounded-[14px] ease-in duration-300" type="password" placeholder="8+ strong character" required/>
                </div>
 
                <Link href='###'>
@@ -71,14 +71,14 @@ export default function logincomponet() {
                <div className='singup-name w-full'>
                   <label htmlFor="">Email<span className='text-[red]'>*</span></label>
                   <i class="fa-solid fa-envelope"/>
-                  <input  className="border-2 focus:border-[#001c5e] focus:rounded-[14px] ease-in duration-300" type="email" placeholder="example@gmail.com" required/>
+                  <input  className="shadow-inner border-2 focus:border-[#001c5e] focus:rounded-[14px] ease-in duration-300" type="email" placeholder="example@gmail.com" required/>
                </div>
 
                <div className='singup-name mb-[-8px] w-full'>
                   <label htmlFor="">Password<span className='text-[red]'>*</span></label>
 
                   <i class="fa-solid fa-lock"></i>
-                  <input className="border-2 focus:border-[#001c5e] focus:rounded-[14px] ease-in duration-300" type="password" placeholder="8+ strong character" required/>
+                  <input className="shadow-inner border-2 focus:border-[#001c5e] focus:rounded-[14px] ease-in duration-300" type="password" placeholder="8+ strong character" required/>
 
                </div>
 

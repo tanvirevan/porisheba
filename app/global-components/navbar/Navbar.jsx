@@ -2,16 +2,15 @@
 import React, { useState } from 'react';
 import Link from 'next/link'
 import Image from 'next/image'
-import Logo from './Cinexoss.jpg'
-import { Ubuntu } from 'next/font/google'
+import porisebaN from './porishebaN.png';
+import porisebaD from './porishebaD.png';
 import { usePathname } from 'next/navigation'
 import Dropdown from '../dropdown'
-import NavButton from '../button/Navbar';
+import NavButton from '../button/NavButton';
 import ServicesButton from '../button/Services';
-import JoinButton from '../button/Join';
+import JoinButton from '../button/JoinButton';
 // import Modal from '../Join-modal';
-// import Join from '../../pages/join'
-const ubantu =  Ubuntu({ subsets: ['greek'],weight: '700' })
+
 
 
 
@@ -21,6 +20,7 @@ export default function Navbar ()
       const ButtonName = '';
       const pathname = usePathname();
       const [isSidebarOpen, setSidebarOpen] = useState(false);
+      const [isHovered, setIsHovered] = useState(false);
       const toggleSidebar = () => 
          {
             setSidebarOpen(!isSidebarOpen);
@@ -28,9 +28,12 @@ export default function Navbar ()
       return(
          <section className=' bg-gray-100 border-none outline-none bg-opacity-50 top-0 shadow-md px-4 rounded-md'>
             <nav className='flex justify-between items-center'>
-               <div>
-                  <Link href='/' className="text-poriseba-blue">
-                     <h className={ubantu.className}>Porisheba</h>
+               <div className='group'>
+                  <Link href='/'>
+                     <Image className='w-[140px]'
+                        src={porisebaN}
+                        alt="img"
+                     />
                   </Link>
                </div>
                <div className='md:hidden flex items-center'>
