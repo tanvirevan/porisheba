@@ -3,7 +3,7 @@ import Image from 'next/image'
 import heroImage from "../../resorce/hero.png";
 export default function Hero() {
   return (
-    <div>
+    <div className="shadow-md">
       <div className="Hero_img relative">
         <div className="absolute inset-0 w-full h-full bg-gray-900 bg-opacity-50"></div>
         <Image
@@ -22,7 +22,7 @@ export default function Hero() {
           We connect you with local professional for make
           <br /> your life better. Your problems rest here
         </p>
-        <div className="flex text-black">
+        <div className="flex text-black ">
           <select
             className="mt-4 py-3 px-5 rounded-md border-none outline-none"
             name=""
