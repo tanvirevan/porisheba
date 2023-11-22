@@ -6,11 +6,11 @@ export default function page() {
     <main>
       <Navbar></Navbar>
       <div className='flex gap-10 mt-2'>
-        <div className='px-4 w-2/6 bg-green-400 rounded-md text-white shadow-lg'>
+        <div className='px-4 w-2/6 h-[700px] bg-gray-100 rounded-md text-[#2b3035] shadow-lg'>
           Filter part
         </div>
         
-        <div className='px-4 w-full bg-blue-400 rounded-md text-white shadow-lg'>
+        <div className='px-4 w-full bg-gray-100 rounded-md text-[#2b3035] shadow-lg'>
           Tasker Card
         </div>
       </div>
