@@ -1,5 +1,6 @@
 import Navbar from '../../global-components/navbar/Navbar'
 import React from 'react'
+import { Menu, Transition } from '@headlessui/react';
 
 export default function page() {
   return (
@@ -17,9 +18,9 @@ export default function page() {
           <div className='flex'>
             <h1>Ratings:</h1>
             <select className="mx-1 px-2 rounded-md border-none outline-none" name="" id="">
-              <option className=' hover:rounded-md ' value="">All</option>
+              <option className=' hover:rounded-lg ' value="">All</option>
+              <option className=' hover:rounded-md ' value="">2.5</option>
               <option className=' hover:rounded-md ' value="">3.5</option>
-              <option className=' hover:rounded-md ' value="">4</option>
               <option className=' hover:rounded-md ' value="">4.5+</option>
             </select>
           </div>
@@ -33,7 +34,7 @@ export default function page() {
         </section>
         
 {/* Tasker main part */}
-        <section className='px-4 mt-4 w-full h-auto bg-gray-100 rounded-md text-[#2b3035] shadow-lg'>
+        <section className='px-4 mt-4 w-full bg-gray-100 rounded-md text-[#2b3035] shadow-lg'>
           <div className='mt-2'>
           Tasker Card
           </div>

@@ -1,8 +1,18 @@
 'use client'
-import { useEffect } from 'react';
+import { useEffect,useState } from 'react';
 import Join from './components/join'
-
+import Modal from '../../global-components/modal';
 export default function LoginPage() {
+   const [isModalOpen, setModalOpen] = useState(false);
+
+   const openModal = () => {
+      setModalOpen(true);
+    };
+  
+    const closeModal = () => {
+      setModalOpen(false);
+    };
+
    useEffect(() => 
       {
          // Add your script logic here, such as adding event listeners
@@ -21,7 +31,7 @@ export default function LoginPage() {
    
     return (
       <main>
-         <Join></Join>
+         <Modal open={isModalOpen} onClose={closeModal} ></Modal>
       </main>
     )
 }
