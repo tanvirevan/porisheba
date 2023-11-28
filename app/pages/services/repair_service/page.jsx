@@ -4,15 +4,16 @@ import React from 'react'
 export default function RepairService() {
   return (
     <main>
-      <Navbar></Navbar>
-      <div className='mt-2'>
-        <section className='w-full h-[80px] bg-gray-100 px-4 shadow-lg'>
-          Category
-        </section>
+      <Navbar className='mb-10'></Navbar>
 
-        <section className='w-full bg-blue-100 mt-2 px-4 shadow-lg'>
+      <div className='mt-10'>
+        <div className=' w-full h-[80px] bg-gray-900 text-white px-4 shadow-lg'>
+          Category
+        </div>
+
+        <div className='w-full bg-blue-100 mt-2 px-4 shadow-lg'>
           Repair Services
-        </section>
+        </div>
       </div>
     </main>
   )

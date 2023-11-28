@@ -4,6 +4,7 @@ import Recommed from "./components/Recomment";
 import Expart from "./components/Expart";
 import Modal from "@/app/global-components/modal";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 export default function Login()
    {
@@ -15,6 +16,7 @@ export default function Login()
             <Hero></Hero>
             <Recommed></Recommed>
             <Expart></Expart>
+            <Contact></Contact>
             <Footer></Footer>
          </div>
          

@@ -7,7 +7,7 @@ import Carousel from './Carousel';
 export default function Expart() {
   return (
     <div className='ml-[104px] '>
-      <div className='bg-gray-50 rounded-lg h-[25rem] mt-10 mb-10'>
+      <div className='bg-gray-50 rounded-lg mt-10 mb-10'>
         <div className='text-[#001b5c] font-bold text-[20px] p-2 pl-2'>
             <h1>Expert in your area</h1>
         </div>

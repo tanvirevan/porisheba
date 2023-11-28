@@ -5,7 +5,7 @@ export default function HomeService() {
   return (
     <main>
       <Navbar></Navbar>
-      <div className='mt-2'>
+      <div className=''>
         <section className='w-full h-[80px] bg-gray-100 px-4 shadow-lg'>
           Category
         </section>
