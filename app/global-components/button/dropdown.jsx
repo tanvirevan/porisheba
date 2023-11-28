@@ -10,7 +10,7 @@ export default function DropdownButton({ Buttonlink, ButtonName }) {
         <Link
           href={Buttonlink}
           className={`${
-            active ? 'bg-[#001c5e] hover:text-white hover:rounded-md' : 'text-gray-700'
+            active ? 'bg-[#001c5e] hover:text-white hover:rounded-md' : 'text-gray-900'
           } block px-3 py-2 text-sm`}
         >
           {ButtonName}

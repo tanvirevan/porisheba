@@ -4,10 +4,11 @@ import heroImage from "../../resorce/hero.png";
 export default function Hero() {
   return (
     <div className="shadow-md">
+{/* Herol section */}
       <div className="Hero_img relative">
-        <div className="absolute inset-0 w-full h-full bg-gray-900 bg-opacity-50"></div>
+        <div className="absolute inset-0 w-full h-full bg-[#000000] bg-opacity-50 rounded-xl"></div>
         <Image
-          className="w-[100%] h-[600px] bg-cover" 
+          className="w-[100%] h-[600px] bg-cover rounded-xl" 
           src={heroImage}
           alt="img"
         />

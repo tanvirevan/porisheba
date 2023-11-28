@@ -1,7 +1,6 @@
 'use client'
 import { useEffect,useState } from 'react';
-import Join from './components/join'
-import Modal from '../../global-components/modal';
+import Join from './components/join_now'
 export default function LoginPage() {
    const [isModalOpen, setModalOpen] = useState(false);
 
@@ -31,7 +30,7 @@ export default function LoginPage() {
    
     return (
       <main>
-         <Modal open={isModalOpen} onClose={closeModal} ></Modal>
+         <Join></Join>
       </main>
     )
 }
