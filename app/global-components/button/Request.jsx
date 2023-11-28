@@ -5,7 +5,9 @@ import { usePathname } from 'next/navigation'
 export default function NavButton({Buttonlink, ButtonName}) {
   const pathname = usePathname();
   return (
-    <Link href={Buttonlink} className={`bg-[#3772ff] text-white px-8 py-3 rounded hover:text-white hover:rounded-xl ease-in duration-200 `}>{ButtonName}
+    <Link href={Buttonlink} 
+    className={`bg-[#3772ff] text-[15px] border-2 border-[#3772ff] text-white px-8 py-3 rounded hover:text-gray-950 hover:text-[16px] hover:bg-[#f3f4f6] ease-out duration-300 `}>
+      {ButtonName}
     </Link>
   )
 }

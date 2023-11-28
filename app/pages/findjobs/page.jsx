@@ -6,14 +6,14 @@ export default function page() {
   return (
     <main>
       <Navbar></Navbar>
-      <div className='flex gap-10 mt-6'>
+      <div className='flex gap-10 '>
 {/* Filter section Top part*/}
-        <div className=' flex items-center justify-self-center px-4 w-2/6 h-[40px] bg-gray-100 rounded-md text-[#2b3035] text-center aline-center shadow'>
+        <div className=' flex items-center justify-self-center px-4 w-2/6 h-[40px] bg-gray-100 rounded-md text-[#2b3035] text-center aline-center shadow mt-10 '>
           Filter Your Jobs
         </div>
 
 {/* Job Section Top Part*/}
-        <div className='flex items-center justify-between h-[40px] w-full bg-gray-100 rounded-md text-[#2b3035] px-4 shadow content-center'>
+        <div className='flex items-center justify-between h-[40px] w-full bg-gray-100 rounded-md text-[#2b3035] px-4 shadow content-center mt-10'>
           <h>All Jobs</h>
           <div className='flex'>
             <h1>Time:</h1>
