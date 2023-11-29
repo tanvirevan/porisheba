@@ -23,7 +23,7 @@ export default function Navbar ()
       return(
 // Start navbar Section
          <div className='relative z-[100] mb-20'> 
-            <section className='fixed top-0 left-0 right-0 bg-gray-400 border-none outline-none bg-opacity-30 top-0 shadow-md px-4 rounded-md'>
+            <section className='fixed top-0 left-0 right-0 bg-gray-400 border-none outline-none bg-opacity-70 top-0 shadow-md px-4 rounded-md'>
                <nav className='w-11/12 flex justify-between items-center'>
 
    {/* Porisheba Logo */}

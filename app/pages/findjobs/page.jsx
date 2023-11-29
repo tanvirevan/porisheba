@@ -1,6 +1,6 @@
 import Navbar from '@/app/global-components/navbar/Navbar'
 import React from 'react'
-import Jobs from './components/card'
+import Jobs from './components/card';
 
 export default function page() {
   return (
@@ -35,9 +35,35 @@ export default function page() {
         </section>
         
 {/* Job main part */}
-        <section className='px-4 mt-4 w-full h-auto bg-gray-100 rounded-md text-[#2b3035] shadow-lg'>
+        <section className='px-4 mt-4 w-full bg-gray-100 rounded-md text-[#2b3035] shadow-lg'>
           <div className='mt-2'>
-            <Jobs></Jobs>
+            <div className='grid gap-4 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3'>
+              <Jobs></Jobs>
+              <Jobs></Jobs>
+              <Jobs></Jobs>
+              <Jobs></Jobs>
+              <Jobs></Jobs>
+              <Jobs></Jobs>
+              <Jobs></Jobs>
+              <Jobs></Jobs>
+              <Jobs></Jobs>
+              <Jobs></Jobs>
+              <Jobs></Jobs>
+              <Jobs></Jobs>
+              <Jobs></Jobs>
+              <Jobs></Jobs>
+              <Jobs></Jobs>
+              <Jobs></Jobs>
+              <Jobs></Jobs>
+              <Jobs></Jobs>
+              <Jobs></Jobs>
+              <Jobs></Jobs>
+              <Jobs></Jobs>
+              <Jobs></Jobs>
+              <Jobs></Jobs>
+              <Jobs></Jobs>
+              <Jobs></Jobs>
+            </div>
           </div>
         </section>
       </div>

@@ -7,7 +7,7 @@ export default function RepairService() {
       <Navbar className='mb-10'></Navbar>
 
       <div className='mt-10'>
-        <div className=' w-full h-[80px] bg-gray-900 text-white px-4 shadow-lg'>
+        <div className='w-full h-[80px] bg-gray-900 text-white px-4 shadow-lg'>
           Category
         </div>
 
