@@ -14,10 +14,10 @@ export default function card() {
                 alt="img"
               />
             </div>
-            <div className=' justify-center w-1/2'>
-                <h1 className='font-bold'>Tasker Name</h1>
+            <div className=' w-1/2'>
+                <h1 className='font-bold mb-2'>Tasker Name</h1>
                 <h1 className='w-[121px] text-center pl-2 text-[15px] rounded bg-[#e4f5ee] text-[#1f7c5a]'>PROFESSIONAL</h1>
-                <h className='pl-2 text-[12px] font-bold'>Worked:300+ </h>
+                <h className='pl-2 text-[12px] font-bold mt-2'>Worked:300+ </h>
             </div>
             <div className='w-1/4 '>
               <p className='mb-6 text-end text-[15px] font-bold text-[]'>250tk/hr</p>

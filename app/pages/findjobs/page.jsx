@@ -1,6 +1,7 @@
 import Navbar from '@/app/global-components/navbar/Navbar'
 import React from 'react'
 import Jobs from './components/card';
+import SearchBox from '@/app/global-components/filter/component/Search';
 
 export default function page() {
   return (
@@ -8,12 +9,12 @@ export default function page() {
       <Navbar></Navbar>
       <div className='flex gap-10 '>
 {/* Filter section Top part*/}
-        <div className=' flex items-center justify-self-center px-4 w-2/6 h-[40px] bg-gray-100 rounded-md text-[#2b3035] text-center aline-center shadow mt-10 '>
-          Filter Your Jobs
+        <div className='border flex items-center justify-self-center w-2/6  rounded-md text-[#2b3035] text-center aline-center shadow mt-10 '>
+          <SearchBox placeholdertext='Search your jobs' ></SearchBox>
         </div>
 
 {/* Job Section Top Part*/}
-        <div className='flex items-center justify-between h-[40px] w-full bg-gray-100 rounded-md text-[#2b3035] px-4 shadow content-center mt-10'>
+        <div className='flex items-center justify-between h-[40px] w-full  rounded-md text-[#2b3035] px-4 shadow content-center mt-10'>
           <h>All Jobs</h>
           <div className='flex'>
             <h1>Time:</h1>
@@ -30,12 +31,12 @@ export default function page() {
 
 {/* Filter section main part */}
       <div className='flex gap-10'>
-        <section className='px-4 mt-1 w-2/6 h-[700px] bg-gray-100 rounded-md text-[#2b3035] shadow-lg'>
+        <section className='px-4 mt-1 w-2/6 h-[700px]  rounded-md text-[#2b3035] shadow-lg'>
           Filter part
         </section>
         
 {/* Job main part */}
-        <section className='px-4 mt-4 w-full bg-gray-100 rounded-md text-[#2b3035] shadow-lg'>
+        <section className='mt-4 rounded-md text-[#2b3035]'>
           <div className='mt-2'>
             <div className='grid gap-4 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3'>
               <Jobs></Jobs>

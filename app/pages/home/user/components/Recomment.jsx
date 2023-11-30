@@ -13,7 +13,7 @@ export default function Recomment() {
             <h1>Recommend Services</h1>
          </div>
 
-         <div className='grid gap-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
+         <div className='grid gap-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 ml-2'>
             <div className='rounded-lg shadow-lg border mt-3  relative hover:bg-[#e4f5ee] duration-300'>
                <Link href="#" className=' place-content-center '>
                   <Image
@@ -27,7 +27,8 @@ export default function Recomment() {
                      </p>
                   </div>
                </Link> 
-            </div><div className='rounded-lg shadow-lg border mt-3  relative hover:bg-[#e4f5ee] duration-300'>
+            </div>
+            <div className='rounded-lg shadow-lg border mt-3  relative hover:bg-[#e4f5ee] duration-300'>
                <Link href="#" className=' place-content-center '>
                   <Image
                      className=" w-[90%] ease-in duration-200  rounded absulute mx-auto mt-5"

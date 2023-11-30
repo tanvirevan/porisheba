@@ -12,14 +12,14 @@ export default function ContactUS() {
             <div className='items-center justify-items-center mx-auto py-24'>
                <p className='text-[#001c5d] font-bold text-[30px] '>Not finding what your looking for?</p>
                <p className='text-sm'>Don’t worry, you can request a service or call us.</p>
-               <div className='mt-4 flex gap-2'>
+               <div className='mt-4 flex gap-2 items-center justify-items-center '>
                   <Request Buttonlink='/' ButtonName='Request a Service'></Request>
-                  <ContactButton Buttonlink='#' ButtonName='16000'></ContactButton>
+                  <ContactButton Buttonlink='/' ButtonName='16000'></ContactButton>
                </div>
             </div>
             
      
-            <div className=' mx-auto pl-4'>
+            <div className=' mx-auto pl-4 bottom-0'>
                <Image src={Contact} alt='img'/>
             </div>
          </div>
