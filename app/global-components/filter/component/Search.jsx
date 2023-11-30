@@ -1,5 +1,6 @@
 "use client"
 import React, { useState } from 'react';
+import './search.css';
 
 export default function SearchBox ({placeholdertext})  {
   const [searchTerm, setSearchTerm] = useState('');
@@ -18,14 +19,17 @@ export default function SearchBox ({placeholdertext})  {
       <head>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
       </head>
-      <div className='flex relative border rounded-md'>
-        <input className='p-2 w-full'
+      <div className='overflow-hidden text-[#001c5e] items-center flex relative border focus:border-1 focus:outline-[#001c5e] rounded-md'>
+        <div className='items-center pl-2 py-center'>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <input className='p-2 w-full outline-none focus:outline-[#001c5e]'
           type="text"
           placeholder={placeholdertext}
           value={searchTerm}
           onChange={handleInputChange}
         />
-        <button className='w-1/6 font-bold hover:bg-[#001c5e] hover:text-white hover:rounded-e-md hover:border ease-in duration-300' onClick={handleSearch}>
+        <button className=' w-1/6 font-bold hover:bg-[#001c5e] hover:text-white p-3 hover:rounded-e-md hover:border ease-in duration-300' onClick={handleSearch}>
         <i class="fa-solid fa-right-to-bracket"></i>
         </button>
       </div>

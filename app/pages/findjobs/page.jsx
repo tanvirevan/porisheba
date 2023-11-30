@@ -2,6 +2,7 @@ import Navbar from '@/app/global-components/navbar/Navbar'
 import React from 'react'
 import Jobs from './components/card';
 import SearchBox from '@/app/global-components/filter/component/Search';
+import Filter from '../../global-components/filter/Filter';
 
 export default function page() {
   return (
@@ -9,16 +10,18 @@ export default function page() {
       <Navbar></Navbar>
       <div className='flex gap-10 '>
         <div className='w-3/12'>
+        </div>
+        <div className='w-[22%] fixed'>
           <div className='rounded-md shadow mt-10 '>
             <SearchBox placeholdertext='Search your jobs' ></SearchBox>
           </div>
           
-          <section className='px-4 mt-1 h-[700px]  rounded-md text-[#2b3035] shadow-lg'>
-            Filter part
+          <section className='px-4 mt-1  rounded-md text-[#2b3035]'>
+            <Filter></Filter>
           </section>
         </div>
       
-        <div className='w-full'>
+        <div className='w-9/12'>
           <div className='flex items-center justify-between h-[40px]  rounded-md text-[#2b3035] px-4 shadow content-center mt-10'>
             <h>All Jobs</h>
             <div className='flex'>

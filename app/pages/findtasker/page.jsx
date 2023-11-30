@@ -2,23 +2,26 @@ import Navbar from '../../global-components/navbar/Navbar'
 import React from 'react'
 import { Menu, Transition } from '@headlessui/react';
 import TaskerCard from './components/card'
-import Expart from '../home/user/components/Expart';
 import SearchBox from '@/app/global-components/filter/component/Search';
+import Filter from '@/app/global-components/filter/Filter';
 
 export default function page() {
   return (
     <main>
       <Navbar></Navbar>
+      
       <div className='flex gap-10'>
+      <div className='w-3/12'>
+      </div>
 {/* Filter section Top part*/}
-        <div className='w-3/12'>
-          <div className='mt-10'>
+        <div className='w-[22%] fixed'>
+          <div className='rounded-md shadow mt-10'>
             <SearchBox placeholdertext='Search your Tasker' ></SearchBox>
           </div>
 
           <div>
-            <div className='px-4 mt-1 border h-[700px] rounded-md text-[#2b3035] shadow-lg'>
-              Filter part
+            <div className='px-4 mt-1 rounded-md text-[#2b3035]'>
+              <Filter></Filter>
             </div>
           </div>
         </div>
@@ -26,7 +29,7 @@ export default function page() {
 
 
 {/* Tasker Section Top Part*/}
-        <div className='w-full'>
+        <div className='w-9/12'>
           <div className='flex items-center justify-between h-[40px] w-full  rounded-md text-[#2b3035] px-4 shadow content-center mt-10'>
             <h>All Tasker</h>
             <div className='flex'>
