@@ -8,7 +8,7 @@ export default function Day() {
       <div className=' grid grid-cols-1 lg:grid-cols-2 gap-2 '>
             <DayButton Buttonlink='#' ButtonName='Today'></DayButton>
             <DayButton Buttonlink='#' ButtonName='3 days'></DayButton>
-            <DayButton Buttonlink='#' ButtonName='a week'></DayButton>
+            <DayButton Buttonlink='#' ButtonName='Week'></DayButton>
             <DayButton Buttonlink='#' ButtonName='All days'></DayButton>
       </div>
    </div>

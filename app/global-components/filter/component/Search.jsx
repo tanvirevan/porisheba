@@ -19,11 +19,11 @@ export default function SearchBox ({placeholdertext})  {
       <head>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
       </head>
-      <div className='overflow-hidden text-[#001c5e] items-center flex relative border focus:border-1 focus:outline-[#001c5e] rounded-md'>
+      <div className='overflow-hidden text-[#001c5e] items-center flex relative border-2 border-[#001c5e]  focus:outline-[#001c5e] rounded-md'>
         <div className='items-center pl-2 py-center'>
           <i class="fa-solid fa-magnifying-glass"></i>
         </div>
-        <input className='p-2 w-full outline-none focus:outline-[#001c5e]'
+        <input className='p-2 w-full outline-none'
           type="text"
           placeholder={placeholdertext}
           value={searchTerm}

@@ -5,7 +5,8 @@ import Star from './resorce/Star.png'
 import Link from 'next/link';
 export default function card() {
   return (
-        <div className=' border p-[10px] rounded-lg shadow-md justify-center items-center'>
+      <Link href="/">
+        <div className=' border p-[10px] rounded-lg shadow-md justify-center items-center hover:bg-gray-200'>
           <div className='flex justify-center items-center gap-2 lg:pt-4'>
             <div className='items-center overflow-hidden w-1/4 '>
               <Image
@@ -36,5 +37,6 @@ export default function card() {
               </Link>
           </div>
         </div>
+      </Link>
   )
 }

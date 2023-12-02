@@ -9,13 +9,13 @@ export default function Day() {
       </head>
       <div className='card border'>
          <h1 className='mb-3 pl-3 font-bold text-[#001c5e]'>Price Range</h1>
-         <div className='flex justify-items-center items-center'>
-               <input className='text-center border-2 outline-none w-[20%] focus:text-[#001c5e] focus:border-[#001c5e]'
+         <div className='flex justify-evenly items-center'>
+               <input className='text-center border-2 outline-none w-[30%] focus:text-[#001c5e] focus:border-[#001c5e]'
                   type="text"
                   placeholder='300'
                />
-               <i class="pr-1 pl-1 fa-solid fa-arrow-right"></i>
-               <input className='text-center border-2 outline-none w-[20%] focus:text-[#001c5e] focus:border-[#001c5e]'
+               <i class=" fa-solid fa-arrows-left-right"></i>
+               <input className='text-center border-2 outline-none w-[30%] focus:text-[#001c5e] focus:border-[#001c5e]'
                   type="text"
                   placeholder='10000'
                />
