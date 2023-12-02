@@ -11,7 +11,7 @@ export default function NavButton({ Buttonlink, ButtonName }) {
       <Link
         href={Buttonlink}
       >
-        <div className={`text-[#3772ff] text-[15px] border-2 rounded-md border-[#3772ff] px-16 py-3 hover:bg-[#3772ff] hover:text-white hover:text-[16px] hover:px-16 py-3 ease-out duration-500`}>
+        <div className={`text-[#1f5d35] text-[15px] border-2 rounded-md border-[#1f5d35] px-16 py-3 hover:bg-[#1f5d35] hover:text-white  py-3 ease-out duration-500`}>
           <i className="pr-1 fa-solid fa-phone"></i>
           {ButtonName}
         </div>
