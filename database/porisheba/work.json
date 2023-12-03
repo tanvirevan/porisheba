@@ -2,57 +2,138 @@
   "Works": [
     {
       "id": "1",
-      "job_name": "Fix the footer links please",
-      "location":"Remote",
-      "Date":"Flexible",
-      "time":"",
-      "job_details": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
-      "user_name":"Tanvr",
+      "name": "Fix the footer links please",
+      "location": "Remote",
+      "date": "Flexible",
+      "time": "anytime",
+      "price": "300tk",
+      "details": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
+      "user_name": "Tanvr",
       "user_email": "tanvir@gmail.com",
       "Veryfied": "Yes"
     },
     {
-      "id": "",
-      "job_name": "is the footer links please",
-      "location":"Dhaka",
-      "Date":"12/03/23",
-      "time":"8am to 11am",
-      "job_details": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
-      "user_name":"Tanvr Islam",
+      "id": "2",
+      "name": "is the footer links please",
+      "location": "Dhaka",
+      "date": "12/03/23",
+      "time": "8am to 11am",
+      "details": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
+      "user_name": "Tanvr Islam",
       "user_email": "tanvirislam@gmail.com",
       "Veryfied": "No"
     }
-
   ],
-
   "Gitposts": [
     {
       "id": "1",
-      "title": "Fix the footer links please",
-      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
+      "name": "Fix  fsdfsfs",
+      "location": "Remote",
+      "date": "Flexible",
+      "time": "anytime",
+      "price": "300tk",
+      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
+      "priority": "low",
+      "user_email": "mario@netninja.dev"
+    },
+    {
+      "id": "2",
+      "name": "fsdfsfsfsFix2",
+      "location": "Remote",
+      "date": "Flexible",
+      "time": "anytime",
+      "price": "3300tk",
+      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
       "priority": "low",
       "user_email": "mario@netninja.dev"
     },
     {
       "id": "3",
-      "title": "Fix the footer links",
-      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
-      "priority": "high",
-      "user_email": "peach@netninja.dev"
+      "name": "Fix3",
+      "location": "Remote",
+      "date": "Flexible",
+      "time": "anytime",
+      "price": "3100tk",
+      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
+      "priority": "low",
+      "user_email": "mario@netninja.dev"
     },
     {
-      "title": "my one",
-      "body": "ddfsfdsfsdfsdfsd",
-      "priority": "high",
-      "user_email": "pro@gmail.com",
-      "id": "_ql4zV5"
+      "id": "4",
+      "name": "Fix4",
+      "location": "Remote",
+      "date": "Flexible",
+      "time": "anytime",
+      "price": "1000tk",
+      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
+      "priority": "low",
+      "user_email": "mario@netninja.dev"
     },
     {
-      "title": "this is new",
-      "body": "kjdfhskjdfjskldfjsklfjkdsskljsdklfusdklfjdliffjlkdsjfklsd;hfidjslkjds",
-      "priority": "high",
-      "user_email": "pro@gmail.com",
-      "id": "P3Ob1IK"
+      "id": "5",
+      "name": "Fijhjksjksjdksljlkjklfsdjx5",
+      "location": "Remote",
+      "date": "Flexible",
+      "time": "anytime",
+      "price": "600tk",
+      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
+      "priority": "low",
+      "user_email": "mario@netninja.dev"
+    },
+    {
+      "id": "6",
+      "name": "Fijhjksjksjdksljlkjklfsdjx6",
+      "location": "Remote",
+      "date": "Flexible",
+      "time": "anytime",
+      "price": "600tk",
+      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
+      "priority": "low",
+      "user_email": "mario@netninja.dev"
+    },
+    {
+      "id": "7",
+      "name": "Fijhjksjksjdksljlkjklfsdjx6",
+      "location": "Remote",
+      "date": "Flexible",
+      "time": "anytime",
+      "price": "6900tk",
+      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
+      "priority": "low",
+      "user_email": "mario@netninja.dev"
+    },
+    {
+      "id": "8",
+      "name": "Fijhjksjksjdksljlkjklfsdjx6",
+      "location": "Remote",
+      "date": "Flexible",
+      "time": "anytime",
+      "price": "100tk",
+      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
+      "priority": "low",
+      "user_email": "mario@netninja.dev"
+    },
+    {
+      "id": "9",
+      "name": "Fijhjksjksjdksljlkjklfsdjx6",
+      "location": "Remote",
+      "date": "Flexible",
+      "time": "anytime",
+      "price": "0600tk",
+      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
+      "priority": "low",
+      "user_email": "mario@netninja.dev"
+    },
+    {
+      "id": "10",
+      "name": "Fijhjksjksjdksljlkjklfsdjx6",
+      "location": "Remote",
+      "date": "Flexible",
+      "time": "anytime",
+      "price": "6000tk",
+      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
+      "priority": "low",
+      "user_email": "mario@netninja.dev"
     }
   ]
 }

@@ -5,7 +5,20 @@ import SearchBox from '@/app/global-components/filter/component/Search';
 import Filter from '../../global-components/filter/Filter';
 import Link from 'next/link';
 
-export default function page() {
+async function GetJobs()
+  {
+
+    const res = await fetch('http://localhost:4000/Gitposts',{
+      next:{
+        revalidate: 0
+    }
+  })
+
+    return res.json()
+  }
+
+export default async function page() {
+  const jobs = await GetJobs()
   return (
     <main>
       <Navbar></Navbar>
@@ -36,35 +49,15 @@ export default function page() {
               </select>
             </div>
           </div>
-
-          <section className='mt-4 rounded-md text-[#2b3035]'>
+      
+          <section  className='mt-4 rounded-md text-[#2b3035]'>
             <div className='mt-2'>
               <div className='grid gap-4 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3'>
-                <Jobs></Jobs>
-                <Jobs></Jobs>
-                <Jobs></Jobs>
-                <Jobs></Jobs>
-                <Jobs></Jobs>
-                <Jobs></Jobs>
-                <Jobs></Jobs>
-                <Jobs></Jobs>
-                <Jobs></Jobs>
-                <Jobs></Jobs>
-                <Jobs></Jobs>
-                <Jobs></Jobs>
-                <Jobs></Jobs>
-                <Jobs></Jobs>
-                <Jobs></Jobs>
-                <Jobs></Jobs>
-                <Jobs></Jobs>
-                <Jobs></Jobs>
-                <Jobs></Jobs>
-                <Jobs></Jobs>
-                <Jobs></Jobs>
-                <Jobs></Jobs>
-                <Jobs></Jobs>
-                <Jobs></Jobs>
-                <Jobs></Jobs>
+                {
+                  jobs.map((job) =>(
+                    <Jobs key={job.id} job={job} ></Jobs>
+                  ))
+                }
               </div>
             </div>
           </section>
