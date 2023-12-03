@@ -45,7 +45,13 @@ export default async function page() {
 {/* Tasker Section Top Part*/}
         <div className='w-9/12'>
           <div className='flex items-center justify-between h-[40px] w-full  rounded-md text-[#2b3035] px-4 shadow content-center mt-10'>
-            <h>All Tasker</h>
+            <select className="mx-1 px-2 rounded-md border-none outline-none" name="" id="">
+                <option className=' hover:rounded-md ' value="">All Tasker</option>
+                <option className=' hover:rounded-md ' value="">Home Service Tasker</option>
+                <option className=' hover:rounded-md ' value="">professional service Tasker</option>
+                <option className=' hover:rounded-md ' value="">Repair Service Tasker</option>
+                <option className=' hover:rounded-md ' value="">Delivery service Tasker</option>
+            </select>
             <div className='flex'>
               <h1>Ratings:</h1>
               <select className="mx-1 px-2 rounded-md border-none outline-none" name="" id="">

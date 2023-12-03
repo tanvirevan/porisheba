@@ -4,20 +4,6 @@ import JoinButton from '../../../global-components/button/JoinButton';
 import contact from './Contact.png'
 import Link from 'next/link';
 
-// async function GetJobs()
-//   {
-
-//     const res = await fetch('http://localhost:4000/Gitposts',{
-//       next:{
-//         revalidate: 0
-//     }
-//   })
-
-//     return res.json()
-//   }
-
-
-
 export default async function card({job}) 
   {
     return (
@@ -31,6 +17,10 @@ export default async function card({job})
                 <div className='p-4 flex rounded-md shadow-md border hover:bg-gray-200'>
                   <div className='w-full'>
                     <p className='text-[#061257] font-bold'>{job.name}</p>
+                    <div className=' flex items-center justify-items-center mt-1 text-[#6a719a]'>
+                      <i class="pr-2 fa-solid fa-layer-group"></i>
+                      <h1 className='font-bold'>{job.category}</h1>
+                    </div>
                     <div className='pl-1 flex items-center justify-items-center mt-1 text-[#6a719a]'>
                       <i class="pr-2 fa-solid fa-location-dot"></i>
                       <p>{job.location}</p>
@@ -43,7 +33,7 @@ export default async function card({job})
 
                     <div className='pl-1 flex items-center justify-items-center mt-1 text-[#6a719a]'>
                       <i class="pr-2 fa-solid fa-clock"></i>
-                      <p className='text-[#6a719a]'>{job.time}</p>
+                      <p className='pb-1 text-[#6a719a]'>{job.time}</p>
                     </div>
 
                     <div className='mt-3 mb-2'>

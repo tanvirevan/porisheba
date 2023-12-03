@@ -27,7 +27,7 @@ export default function card({work}) {
               <div className='w-1/4 '>
                 <p className='mb-6 text-end text-[15px] font-bold'>{work.price}</p>
                 <div className='flex items-center justify-center'>
-                  <i class="p-2 text-[#f3b63c] fa-solid fa-star"></i>
+                  <i class="pl-10 text-[#f3b63c] fa-solid fa-star"></i>
                   <p className='pt-[4px] text-end text-[15px] text-[#001c5e] font-bold'>
                     {work.ratings}
                   </p>
@@ -37,10 +37,10 @@ export default function card({work}) {
 
             <div className='w-full justify-center gap-5 items-center mt-[30px] flex md:mb-2'>
 
-                <Link href='' className={`text-[15px] bg-gray-100 px-10 py-2 rounded-full hover:bg-poriseba-blue hover:text-white ease-in duration-300 `}>View Profile & Reviews
+                <Link href='/' className={`text-[15px] bg-gray-100 px-10 py-2 rounded-full hover:bg-poriseba-blue hover:text-white ease-in duration-300 `}>View Profile & Reviews
                 </Link>
 
-                <Link href='' className={`text-[15px] bg-poriseba-blue text-white px-10 py-2 rounded-full hover:text-[#2b3035] hover:bg-gray-100 ease-in duration-300 `}>Select & Continue
+                <Link href='/' className={`text-[15px] bg-poriseba-blue text-white px-10 py-2 rounded-full hover:text-[#2b3035] hover:bg-gray-100 ease-in duration-300 `}>Select & Continue
                 </Link>
             </div>
           </div>

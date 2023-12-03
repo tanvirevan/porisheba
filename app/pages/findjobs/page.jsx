@@ -37,7 +37,14 @@ export default async function page() {
       
         <div className='w-9/12'>
           <div className='flex items-center justify-between h-[40px]  rounded-md text-[#2b3035] px-4 shadow content-center mt-10'>
-            <h>All Jobs</h>
+            <select className="mx-1 px-2 rounded-md border-none outline-none" name="" id="">
+                <option className=' hover:rounded-md ' value="">All Jobs</option>
+                <option className=' hover:rounded-md ' value="">Home Service</option>
+                <option className=' hover:rounded-md ' value="">professional service</option>
+                <option className=' hover:rounded-md ' value="">Repair Service</option>
+                <option className=' hover:rounded-md ' value="">Delivery service</option>
+              </select>
+
             <div className='flex'>
               <h1>Time:</h1>
               <select className="mx-1 px-2 rounded-md border-none outline-none" name="" id="">
