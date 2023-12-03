@@ -3,7 +3,7 @@ import React from 'react'
 import TimeButton from '../../button/TimeButton';
 export default function FilterTime() {
   return (
-   <div className='card border'>
+   <div className='card border mb-2 p-2'>
    <h1 className='mb-2 pl-2 font-bold text-[#001c5e]'>Select Time</h1>
    <div className='flex flex-col gap-2'>
       <TimeButton Buttonlink='#' ButtonName='All jobs times'></TimeButton>

@@ -1,30 +1,129 @@
 {
-  "Works": [
+  "workposts": [
     {
       "id": "1",
-      "name": "Fix the footer links please",
+      "name": "Rifat",
       "location": "Remote",
       "date": "Flexible",
+      "status": "PROFESSIONAL",
+      "total_work":"300++",
       "time": "anytime",
-      "price": "300tk",
+      "price": "250tk/hr",
       "details": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
       "user_name": "Tanvr",
       "user_email": "tanvir@gmail.com",
-      "Veryfied": "Yes"
-    },
+      "Veryfied": "Yes",
+      "ratings": "4.9"
+    },    
     {
-      "id": "2",
-      "name": "is the footer links please",
-      "location": "Dhaka",
-      "date": "12/03/23",
-      "time": "8am to 11am",
+      "id": "1",
+      "name": "Rifat",
+      "location": "Remote",
+      "date": "Flexible",
+      "status": "PROFESSIONAL",
+      "total_work":"300++",
+      "time": "anytime",
+      "price": "250tk/hr",
       "details": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
-      "user_name": "Tanvr Islam",
-      "user_email": "tanvirislam@gmail.com",
-      "Veryfied": "No"
-    }
+      "user_name": "Tanvr",
+      "user_email": "tanvir@gmail.com",
+      "Veryfied": "Yes",
+      "ratings": "4.9"
+    },    
+    {
+      "id": "1",
+      "name": "Rifat",
+      "location": "Remote",
+      "date": "Flexible",
+      "status": "PROFESSIONAL",
+      "total_work":"300++",
+      "time": "anytime",
+      "price": "250tk/hr",
+      "details": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
+      "user_name": "Tanvr",
+      "user_email": "tanvir@gmail.com",
+      "Veryfied": "Yes",
+      "ratings": "4.9"
+    },    
+    {
+      "id": "1",
+      "name": "Rifat",
+      "location": "Remote",
+      "date": "Flexible",
+      "status": "PROFESSIONAL",
+      "total_work":"300++",
+      "time": "anytime",
+      "price": "250tk/hr",
+      "details": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
+      "user_name": "Tanvr",
+      "user_email": "tanvir@gmail.com",
+      "Veryfied": "Yes",
+      "ratings": "4.9"
+    },    
+    {
+      "id": "1",
+      "name": "Rifat",
+      "location": "Remote",
+      "date": "Flexible",
+      "status": "PROFESSIONAL",
+      "total_work":"300++",
+      "time": "anytime",
+      "price": "250tk/hr",
+      "details": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
+      "user_name": "Tanvr",
+      "user_email": "tanvir@gmail.com",
+      "Veryfied": "Yes",
+      "ratings": "4.9"
+    },    
+    {
+      "id": "1",
+      "name": "Rifat",
+      "location": "Remote",
+      "date": "Flexible",
+      "status": "PROFESSIONAL",
+      "total_work":"300++",
+      "time": "anytime",
+      "price": "250tk/hr",
+      "details": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
+      "user_name": "Tanvr",
+      "user_email": "tanvir@gmail.com",
+      "Veryfied": "Yes",
+      "ratings": "4.9"
+    },    
+    {
+      "id": "1",
+      "name": "Rifat",
+      "location": "Remote",
+      "date": "Flexible",
+      "status": "PROFESSIONAL",
+      "total_work":"300++",
+      "time": "anytime",
+      "price": "250tk/hr",
+      "details": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
+      "user_name": "Tanvr",
+      "user_email": "tanvir@gmail.com",
+      "Veryfied": "Yes",
+      "ratings": "4.9"
+    },    
+    {
+      "id": "1",
+      "name": "Rifat",
+      "location": "Remote",
+      "date": "Flexible",
+      "status": "PROFESSIONAL",
+      "total_work":"300++",
+      "time": "anytime",
+      "price": "250tk/hr",
+      "details": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
+      "user_name": "Tanvr",
+      "user_email": "tanvir@gmail.com",
+      "Veryfied": "Yes",
+      "ratings": "4.9"
+    } 
   ],
-  "Gitposts": [
+
+
+  "jobposts": [
     {
       "id": "1",
       "name": "Fix  fsdfsfs",
@@ -127,6 +226,28 @@
     {
       "id": "10",
       "name": "Fijhjksjksjdksljlkjklfsdjx6",
+      "location": "Remote",
+      "date": "Flexible",
+      "time": "anytime",
+      "price": "6000tk",
+      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
+      "priority": "low",
+      "user_email": "mario@netninja.dev"
+    },
+    {
+      "id": "11",
+      "name": "Fijhjksjksjdksljlkjklfsdj11",
+      "location": "Remote",
+      "date": "Flexible",
+      "time": "anytime",
+      "price": "6000tk",
+      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
+      "priority": "low",
+      "user_email": "mario@netninja.dev"
+    },
+    {
+      "id": "12",
+      "name": "Fijhjksjksjdksljlkjklfsdj12",
       "location": "Remote",
       "date": "Flexible",
       "time": "anytime",

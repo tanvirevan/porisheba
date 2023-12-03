@@ -8,7 +8,7 @@ import Link from 'next/link';
 async function GetJobs()
   {
 
-    const res = await fetch('http://localhost:4000/Gitposts',{
+    const res = await fetch('http://localhost:4000/jobposts',{
       next:{
         revalidate: 0
     }

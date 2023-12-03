@@ -21,7 +21,7 @@ import Link from 'next/link';
 export default async function card({job}) 
   {
     return (
-      <div >
+      <div>
         <head>
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
         </head>

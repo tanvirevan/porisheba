@@ -5,11 +5,25 @@ import TaskerCard from './components/card'
 import SearchBox from '@/app/global-components/filter/component/Search';
 import Filter from '@/app/global-components/filter/Filter';
 
-export default function page() {
+
+async function GetWorks()
+  {
+    const res = await fetch('http://localhost:4000/workposts',{
+      next:{
+          revalidate: 0
+        }
+    })
+
+    return res.json()
+  }
+
+export default async function page() {
+  const works = await GetWorks()
+
   return (
     <main>
       <Navbar></Navbar>
-      
+
       <div className='flex gap-10'>
       <div className='w-3/12'>
       </div>
@@ -50,16 +64,11 @@ export default function page() {
           <section className=' mt-4 w-full text-[#2b3035]'>
             <div className='mt-2 mb-2'>
               <div className='grid gap-4 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2'>
-                <TaskerCard></TaskerCard>
-                <TaskerCard></TaskerCard>
-                <TaskerCard></TaskerCard>
-                <TaskerCard></TaskerCard>
-                <TaskerCard></TaskerCard>
-                <TaskerCard></TaskerCard>
-                <TaskerCard></TaskerCard>
-                <TaskerCard></TaskerCard>
-                <TaskerCard></TaskerCard>
-                <TaskerCard></TaskerCard>
+                {
+                  works.map((work) =>(
+                    <TaskerCard key={work.id} work={work} ></TaskerCard>
+                  ))
+                }
               </div>
             </div>
           </section>
