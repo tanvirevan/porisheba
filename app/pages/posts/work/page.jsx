@@ -99,12 +99,17 @@ export default function CreateForm() {
 
           <label className='w-1/2'>
             <span>Time Slot</span>
-            <input className='border rounded-lg'
-                required
-                type="time"
-                onChange={(e) => settime(e.target.value)}
-                value={time}
-            />
+            <select className='rounded-lg'
+                onChange = {(e) => settime(e.target.value)}
+                // value = {priority} className='border rounded-lg'
+            >
+                <option value="Any Time">Time</option>
+                <option value="Any Time">(Any Time)</option>
+                <option value="8am - 11am">(8am - 11am)</option>
+                <option value="12pm - 5pm">(12pm - 5pm)</option>
+                <option value="5pm - 11pm">(5pm - 11pm)</option>
+                <option value="12am - 4am">(12am - 4am)</option>
+            </select>
           </label>
         </div>
 

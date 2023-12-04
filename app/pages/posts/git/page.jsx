@@ -8,7 +8,7 @@ export default function CreateForm() {
   const [name, setname] = useState('')
   const [category, setcategory] = useState('')
   const [location, setlocation] = useState('')
-  const [date, setdate] = useState('')
+  const [days, setdays] = useState('')
   const [time, settime] = useState('')
   const [price, setprice] = useState('')
   const [ratings, setratings] = useState('')
@@ -24,7 +24,7 @@ export default function CreateForm() {
          setIsLoading(true)
 
          const Git = {
-               name,category,location,priority,date,time,price,ratings,total_work,details,
+               name,category,location,priority,days,time,price,ratings,total_work,details,
             }
 
          const res = await fetch ('http://localhost:4000/workposts', {
@@ -93,23 +93,28 @@ export default function CreateForm() {
 
         <div className='flex gap-10'>
           <label className='w-1/2'>
-            <span>Date</span>
+            <span>Available Days</span>
             <input className='border rounded-lg'
-                required
-                type="date"
-                onChange={(e) => setdate(e.target.value)}
-                value={date}
-            />
+              required
+              type="text"
+              placeholder='sat-sun-Mon'
+              onChange={(e) => setdays(e.target.value)}
+              value={days}
+          />
           </label>
 
           <label className='w-1/2'>
             <span>Time Slot</span>
-            <input className='border rounded-lg'
-                required
-                type="time"
-                onChange={(e) => settime(e.target.value)}
-                value={time}
-            />
+            <select className='rounded-lg'
+                onChange = {(e) => settime(e.target.value)}
+                // value = {priority} className='border rounded-lg'
+            >
+                <option value="Any Time">Any Time</option>
+                <option value="8am - 11am">(8am - 11am)</option>
+                <option value="12pm - 5pm">(12pm - 5pm)</option>
+                <option value="5pm - 11pm">(5pm - 11pm)</option>
+                <option value="12am - 4am">(12am - 4am)</option>
+            </select>
           </label>
         </div>       
         
@@ -132,6 +137,7 @@ export default function CreateForm() {
                 onChange = {(e) => settotal_work(e.target.value)}
                 // value = {priority} className='border rounded-lg'
             >
+                <option >work</option>
                 <option value="0 to 50">0 to 50</option>
                 <option value="50 to 100">50 to 100</option>
                 <option value="100+">100+</option>

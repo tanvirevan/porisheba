@@ -31,75 +31,30 @@
   ],
   "workposts": [
     {
-      "id": "1",
-      "name": "Rifat",
+      "name": "janina",
+      "category": "Repair Service",
       "location": "Remote",
-      "date": "Flexible",
-      "status": "PROFESSIONAL",
-      "total_work": "300++",
-      "time": "anytime",
-      "price": "250",
-      "details": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
-      "user_name": "Tanvr",
-      "user_email": "tanvir@gmail.com",
-      "Veryfied": "Yes",
-      "ratings": "4.9"
-    },
-    {
-      "id": "2",
-      "name": "Rifat",
-      "location": "Remote",
-      "date": "Flexible",
-      "status": "PROFESSIONAL",
-      "total_work": "300++",
-      "time": "anytime",
-      "price": "250",
-      "details": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
-      "user_name": "Tanvr",
-      "user_email": "tanvir@gmail.com",
-      "Veryfied": "Yes",
-      "ratings": "4.9"
-    },
-    {
-      "id": "4",
-      "name": "Rifat",
-      "location": "Remote",
-      "date": "Flexible",
-      "status": "PROFESSIONAL",
-      "total_work": "300++",
-      "time": "anytime",
-      "price": "250",
-      "details": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
-      "user_name": "Tanvr",
-      "user_email": "tanvir@gmail.com",
-      "Veryfied": "Yes",
-      "ratings": "4.9"
+      "priority": "Elite Value",
+      "days": "sat-sun-mon",
+      "time": "8am - 11am",
+      "price": "200",
+      "ratings": "",
+      "total_work": "50 to 100",
+      "details": "jkjklfjdkfjksfksjslkfj",
+      "id": 1
     },
     {
       "name": "Tanvir Islam",
-      "category": "delivery Service",
+      "category": "Repair Service",
       "location": "Saidnogor",
-      "priority": "Elite Value",
-      "date": "2023-12-04",
-      "time": "19:48",
-      "price": "55",
+      "priority": "Great Value",
+      "days": "Fri-mon-sat",
+      "time": "12pm - 5pm",
+      "price": "5000",
       "ratings": "",
-      "total_work": "50 to 100",
-      "details": "dfdsfdfdsffsdfsfs",
-      "id": "BearbXT"
-    },
-    {
-      "name": "Tuya Isalm",
-      "category": "Professional Service",
-      "location": "Remote",
-      "priority": "Elite Value",
-      "date": "2023-12-20",
-      "time": "09:55",
-      "price": "6000",
-      "ratings": "",
-      "total_work": "50 to 100",
-      "details": "dffssfssdsfsdfsf",
-      "id": "hCq9Wu9"
+      "total_work": "100+",
+      "details": "dfffsfsfsdfsdfsdfasfsdsafsdf",
+      "id": 2
     }
   ],
   "jobposts": [
@@ -161,6 +116,39 @@
       "price": "50",
       "details": "fdffsffsdfsdf",
       "id": "VV81ftb"
+    },
+    {
+      "name": "Rifat khabe na",
+      "category": "Repair Service",
+      "location": "Saidnogor",
+      "priority": "",
+      "date": "2023-12-05",
+      "time": "21:37",
+      "price": "600",
+      "details": "fosduskdjfklsdjfklsadrfuasjklrauifljwuorfsdflksadu flk",
+      "id": "l0P5RSw"
+    },
+    {
+      "name": "amar nam rifat",
+      "category": "Professional Service",
+      "location": "Bosundhora",
+      "priority": "",
+      "date": "2023-12-06",
+      "time": "21:46",
+      "price": "566",
+      "details": "dfdsfdfsdfsddffd",
+      "id": "HA2gz3y"
+    },
+    {
+      "name": "ami na chini na",
+      "category": "Home Service",
+      "location": "Gulsan",
+      "priority": "",
+      "date": "2023-12-13",
+      "time": "21:48",
+      "price": "456",
+      "details": "dfsdfsdfsdfdfsdfsd",
+      "id": "fuWIovy"
     }
   ]
 }
