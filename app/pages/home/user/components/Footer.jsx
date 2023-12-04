@@ -130,7 +130,7 @@ export default function Footer() {
     </main>
           <div class="px-4 py-6 bg-gray-100 items-center w-full">
             <p class="text-sm text-[#3772ff] text-center ">
-              © 2023 <a href="#">Porisheba™</a>. All Rights
+              © 2023 <a href="#">Loopein™</a>. All Rights
               Reserved.
             </p>
           </div>

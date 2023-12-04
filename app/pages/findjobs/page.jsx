@@ -1,9 +1,11 @@
+'use client'
 import Navbar from '@/app/global-components/navbar/Navbar'
 import React from 'react'
 import Jobs from './components/card';
 import SearchBox from '@/app/global-components/filter/component/Search';
 import Filter from '../../global-components/filter/Filter';
 import Link from 'next/link';
+// import find from '../../global-components/button/find'
 
 async function GetJobs()
   {

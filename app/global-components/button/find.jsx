@@ -1,14 +1,14 @@
 import { Fragment, useState } from 'react';
 import { Menu, Transition } from '@headlessui/react';
 import Link from 'next/link';
-import DropdownButton from './button/dropdown';
+import DropdownButton from './dropdown';
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
 }
 
-export default function Dropdown() {
-  // const  {item1,item2} = props;
+export default function Dropdown({props}) {
+  const  {item1,item2,item3,item4,item5} = props;
   const [isDropdownOpen, setDropdownOpen] = useState(false);
 
   const toggleDropdown = () => {
@@ -23,7 +23,7 @@ export default function Dropdown() {
       <Menu>
         <div>
           <Menu.Button className='text-base'>
-            Posts
+            
           </Menu.Button>
         </div>
 
@@ -37,12 +37,22 @@ export default function Dropdown() {
 
 {/* Home Service Button */}
                 <Menu.Item>
-                    <DropdownButton Buttonlink="/pages/services/home_service" ButtonName="Work Post" />
+                    <DropdownButton Buttonlink="/pages/services/home_service" ButtonName="Home Service" />
                 </Menu.Item>
 
 {/* Professiona Service Button */}
                 <Menu.Item>
-                    <DropdownButton Buttonlink="/pages/services/professional_services" ButtonName="Job Post" />
+                    <DropdownButton Buttonlink="/pages/services/professional_services" ButtonName="Professional Service" />
+                </Menu.Item>
+                
+{/* Repair Service Button */}
+                <Menu.Item>
+                    <DropdownButton Buttonlink="/pages/services/repair_service" ButtonName="Repair Service" />
+                </Menu.Item>
+
+{/* Delievery Servce button */}
+                <Menu.Item>
+                    <DropdownButton Buttonlink="/pages/services/delivery_service" ButtonName="Delivery Service" />
                 </Menu.Item>
                 
             </div>
