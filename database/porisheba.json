@@ -1,15 +1,44 @@
 {
+  "user": [
+    {
+      "taskholder": {
+        "id": "1",
+        "user_name": "Tanvr",
+        "user_email": "tanvir@gmail.com",
+        "Veryfied": "Yes"
+      },
+      "tasker": {
+        "nid": "1234",
+        "skills": {},
+        "status": "PROFESSIONAL",
+        "ratings": "4.9",
+        "details": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
+        "total_work": "300++",
+        "price": "250",
+        "time": "anytime",
+        "Veryfied": "Yes"
+      },
+      "payment": {
+        "id": "1",
+        "time": "",
+        "getway": {
+          "Bkash": {
+            "pay": "300"
+          }
+        }
+      }
+    }
+  ],
   "workposts": [
     {
       "id": "1",
       "name": "Rifat",
-      "skills": {},
       "location": "Remote",
       "date": "Flexible",
       "status": "PROFESSIONAL",
       "total_work": "300++",
       "time": "anytime",
-      "price": "250tk/hr",
+      "price": "250",
       "details": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
       "user_name": "Tanvr",
       "user_email": "tanvir@gmail.com",
@@ -17,15 +46,14 @@
       "ratings": "4.9"
     },
     {
-      "id": "1",
+      "id": "2",
       "name": "Rifat",
-      "skills": {},
       "location": "Remote",
       "date": "Flexible",
       "status": "PROFESSIONAL",
       "total_work": "300++",
       "time": "anytime",
-      "price": "250tk/hr",
+      "price": "250",
       "details": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
       "user_name": "Tanvr",
       "user_email": "tanvir@gmail.com",
@@ -33,37 +61,20 @@
       "ratings": "4.9"
     },
     {
-      "id": "1",
+      "id": "4",
       "name": "Rifat",
-      "skills": {},
       "location": "Remote",
       "date": "Flexible",
       "status": "PROFESSIONAL",
       "total_work": "300++",
       "time": "anytime",
-      "price": "250tk/hr",
+      "price": "250",
       "details": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
       "user_name": "Tanvr",
       "user_email": "tanvir@gmail.com",
       "Veryfied": "Yes",
       "ratings": "4.9"
-    },
-    {
-      "id": "1",
-      "name": "Rifat",
-      "skills": {},
-      "location": "Remote",
-      "date": "Flexible",
-      "status": "PROFESSIONAL",
-      "total_work": "300++",
-      "time": "anytime",
-      "price": "250tk/hr",
-      "details": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
-      "user_name": "Tanvr",
-      "user_email": "tanvir@gmail.com",
-      "Veryfied": "Yes",
-      "ratings": "4.9"
-    }
+    } 
   ],
   "jobposts": [
     {
@@ -73,7 +84,7 @@
       "location": "Remote",
       "date": "Flexible",
       "time": "anytime",
-      "price": "3300tk",
+      "price": "3300",
       "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
       "priority": "low",
       "user_email": "mario@netninja.dev"
@@ -85,7 +96,7 @@
       "location": "Remote",
       "date": "Flexible",
       "time": "anytime",
-      "price": "3100tk",
+      "price": "3100",
       "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
       "priority": "low",
       "user_email": "mario@netninja.dev"
@@ -97,7 +108,7 @@
       "location": "Remote",
       "date": "Flexible",
       "time": "anytime",
-      "price": "1000tk",
+      "price": "1000",
       "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
       "priority": "low",
       "user_email": "mario@netninja.dev"
@@ -109,32 +120,11 @@
       "location": "Remote",
       "date": "Flexible",
       "time": "anytime",
-      "price": "600tk",
+      "price": "600",
       "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
       "priority": "low",
       "user_email": "mario@netninja.dev"
-    },
-    {
-      "name": "kfjkfjklflkdjflidflkari",
-      "category": "Home Service",
-      "location": "Saidnogor",
-      "priority": "",
-      "date": "2023-12-12",
-      "time": "13:51",
-      "price": "466",
-      "details": "dffsdfsffsdfsffsfsd",
-      "id": "yYMGb5Y"
-    },
-    {
-      "name": "kdjsdjkjkjsdkfjskfjsdklfjsklfjskljfslkjfskjsklfjlksf",
-      "category": "Home Service",
-      "location": "Gulsan",
-      "priority": "",
-      "date": "2023-12-14",
-      "time": "16:15",
-      "price": "455",
-      "details": "dfsfsdfsdfsfasfsfsdf",
-      "id": "u6gUqh8"
     }
+    
   ]
 }

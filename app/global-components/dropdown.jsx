@@ -34,15 +34,14 @@ export default function Dropdown() {
 
 {/* Dropdown Button Start */}
             <div className="py-1">
-
 {/* Home Service Button */}
                 <Menu.Item>
-                    <DropdownButton Buttonlink="/pages/posts/job" ButtonName="Work Post" />
+                    <DropdownButton Buttonlink="/pages/posts/work" ButtonName="Work Post" />
                 </Menu.Item>
 
 {/* Professiona Service Button */}
                 <Menu.Item>
-                    <DropdownButton Buttonlink="/pages/posts/work" ButtonName="Job Post" />
+                    <DropdownButton Buttonlink="/pages/posts/git" ButtonName="Git Post" />
                 </Menu.Item>
                 
             </div>

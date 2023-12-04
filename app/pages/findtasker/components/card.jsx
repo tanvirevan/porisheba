@@ -25,11 +25,11 @@ export default function card({work}) {
                   <h className='pl-2 text-[12px] font-bold mt-2'>Worked:{work.total_work} </h>
               </div>
               <div className='w-1/4 '>
-                <p className='mb-6 text-end text-[15px] font-bold'>{work.price}</p>
+                <p className='mb-6 text-end text-[15px] font-bold'>{work.price}tk/h</p>
                 <div className='flex items-center justify-center'>
                   <i class="pl-10 text-[#f3b63c] fa-solid fa-star"></i>
                   <p className='pt-[4px] text-end text-[15px] text-[#001c5e] font-bold'>
-                    {work.ratings}
+                    {/* {work.ratings} */}4.9
                   </p>
                 </div>
               </div>
