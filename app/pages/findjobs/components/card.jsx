@@ -15,8 +15,8 @@ export default async function card({job})
             <div key={job} >
               <Link  href="/">
                 <div className='p-4 flex rounded-md shadow-md border hover:bg-gray-200'>
-                  <div className='w-full'>
-                    <p className='text-[#061257] font-bold'>{job.name}</p>
+                  <div className='w-3/4'>
+                    <p className='text-[#061257] font-bold overflow-hidden'>{job.name}</p>
                     <div className=' flex items-center justify-items-center mt-1 text-[#6a719a]'>
                       <i class="pr-2 fa-solid fa-layer-group"></i>
                       <h1 className='font-bold'>{job.category}</h1>
@@ -42,7 +42,7 @@ export default async function card({job})
                   </div>
 
                   <div className='w-1/4 flex flex-col justify-between'>
-                    <h1 className='text-end font-bold'>{job.price}</h1>
+                    <h1 className='text-end font-bold'>{job.price} tk</h1>
                     <div className='w-[100%] overflow-hidden rounded-full hover:bg-[#001c5e] ease-in duration-500'>
                       <Image className='w-[100%]'
                         src={contact}

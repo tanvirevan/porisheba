@@ -3,152 +3,138 @@
     {
       "id": "1",
       "name": "Rifat",
-      "skills":
-        {
-
-        },
+      "skills": {},
       "location": "Remote",
       "date": "Flexible",
       "status": "PROFESSIONAL",
-      "total_work":"300++",
+      "total_work": "300++",
       "time": "anytime",
       "price": "250tk/hr",
       "details": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
       "user_name": "Tanvr",
       "user_email": "tanvir@gmail.com",
-      "image_url": "",
-      "Veryfied": "Yes",
-      "ratings": "4.9"
-    },     {
-      "id": "1",
-      "name": "Rifat",
-      "skills":
-        {
-
-        },
-      "location": "Remote",
-      "date": "Flexible",
-      "status": "PROFESSIONAL",
-      "total_work":"300++",
-      "time": "anytime",
-      "price": "250tk/hr",
-      "details": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
-      "user_name": "Tanvr",
-      "user_email": "tanvir@gmail.com",
-      "image_url": "",
       "Veryfied": "Yes",
       "ratings": "4.9"
     },
     {
       "id": "1",
       "name": "Rifat",
-      "skills":
-        {
-
-        },
+      "skills": {},
       "location": "Remote",
       "date": "Flexible",
       "status": "PROFESSIONAL",
-      "total_work":"300++",
+      "total_work": "300++",
       "time": "anytime",
       "price": "250tk/hr",
       "details": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
       "user_name": "Tanvr",
       "user_email": "tanvir@gmail.com",
-      "image_url": "",
       "Veryfied": "Yes",
       "ratings": "4.9"
-    }, 
+    },
     {
       "id": "1",
       "name": "Rifat",
-      "skills":
-        {
-
-        },
+      "skills": {},
       "location": "Remote",
       "date": "Flexible",
       "status": "PROFESSIONAL",
-      "total_work":"300++",
+      "total_work": "300++",
       "time": "anytime",
       "price": "250tk/hr",
       "details": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
       "user_name": "Tanvr",
       "user_email": "tanvir@gmail.com",
-      "image_url": "",
       "Veryfied": "Yes",
       "ratings": "4.9"
-    }    
-      
+    },
+    {
+      "id": "1",
+      "name": "Rifat",
+      "skills": {},
+      "location": "Remote",
+      "date": "Flexible",
+      "status": "PROFESSIONAL",
+      "total_work": "300++",
+      "time": "anytime",
+      "price": "250tk/hr",
+      "details": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
+      "user_name": "Tanvr",
+      "user_email": "tanvir@gmail.com",
+      "Veryfied": "Yes",
+      "ratings": "4.9"
+    }
   ],
-
-
   "jobposts": [
-    {
-      "id": "1",
-      "name": "Fix  fsdfsfs",
-      "category":"Home Service",
-      "location": "Remote",
-      "date": "Flexible",
-      "time": "anytime",
-      "price": "300tk",
-      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
-      "priority": "low",
-      "user_email": "mario@netninja.dev",
-      "image_url": ""
-    },
     {
       "id": "2",
       "name": "fsdfsfsfsFix2",
-      "category":"Home Service",
+      "category": "Home Service",
       "location": "Remote",
       "date": "Flexible",
       "time": "anytime",
       "price": "3300tk",
       "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
       "priority": "low",
-      "user_email": "mario@netninja.dev",
-      "image_url": ""
+      "user_email": "mario@netninja.dev"
     },
     {
       "id": "3",
       "name": "Fix3",
-      "category":"Repar Service",
+      "category": "Repar Service",
       "location": "Remote",
       "date": "Flexible",
       "time": "anytime",
       "price": "3100tk",
       "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
       "priority": "low",
-      "user_email": "mario@netninja.dev",
-      "image_url": ""
+      "user_email": "mario@netninja.dev"
     },
     {
       "id": "4",
       "name": "Fix4",
-      "category":"Home Service",
+      "category": "Home Service",
       "location": "Remote",
       "date": "Flexible",
       "time": "anytime",
       "price": "1000tk",
       "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
       "priority": "low",
-      "user_email": "mario@netninja.dev",
-      "image_url": ""
+      "user_email": "mario@netninja.dev"
     },
     {
       "id": "5",
       "name": "Fijhjksjksjdksljlkjklfsdjx5",
-      "category":"Repar Service",
+      "category": "Repar Service",
       "location": "Remote",
       "date": "Flexible",
       "time": "anytime",
       "price": "600tk",
       "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
       "priority": "low",
-      "user_email": "mario@netninja.dev",
-      "image_url": ""
+      "user_email": "mario@netninja.dev"
+    },
+    {
+      "name": "kfjkfjklflkdjflidflkari",
+      "category": "Home Service",
+      "location": "Saidnogor",
+      "priority": "",
+      "date": "2023-12-12",
+      "time": "13:51",
+      "price": "466",
+      "details": "dffsdfsffsdfsffsfsd",
+      "id": "yYMGb5Y"
+    },
+    {
+      "name": "kdjsdjkjkjsdkfjskfjsdklfjsklfjskljfslkjfskjsklfjlksf",
+      "category": "Home Service",
+      "location": "Gulsan",
+      "priority": "",
+      "date": "2023-12-14",
+      "time": "16:15",
+      "price": "455",
+      "details": "dfsfsdfsdfsfasfsfsdf",
+      "id": "u6gUqh8"
     }
-    
   ]
 }

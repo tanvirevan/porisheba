@@ -37,12 +37,12 @@ export default function Dropdown() {
 
 {/* Home Service Button */}
                 <Menu.Item>
-                    <DropdownButton Buttonlink="/pages/services/home_service" ButtonName="Work Post" />
+                    <DropdownButton Buttonlink="/pages/posts/job" ButtonName="Work Post" />
                 </Menu.Item>
 
 {/* Professiona Service Button */}
                 <Menu.Item>
-                    <DropdownButton Buttonlink="/pages/services/professional_services" ButtonName="Job Post" />
+                    <DropdownButton Buttonlink="/pages/posts/work" ButtonName="Job Post" />
                 </Menu.Item>
                 
             </div>
