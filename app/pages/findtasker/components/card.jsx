@@ -21,7 +21,7 @@ export default function card({work}) {
               </div>
               <div className=' w-1/2'>
                   <h1 className='font-bold mb-2'>{work.name}</h1>
-                  <h1 className='w-[121px] text-center pl-2 text-[15px] rounded bg-[#e4f5ee] text-[#1f7c5a]'>{work.status}</h1>
+                  <h1 className='w-[121px] text-center pl-2 text-[15px] rounded bg-[#e4f5ee] text-[#1f7c5a]'>{work.priority}</h1>
                   <h className='pl-2 text-[12px] font-bold mt-2'>Worked:{work.total_work} </h>
               </div>
               <div className='w-1/4 '>

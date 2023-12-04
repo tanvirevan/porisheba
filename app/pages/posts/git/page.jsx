@@ -1,7 +1,6 @@
 "use client"
 import { useRouter } from 'next/navigation'
 import { useState } from 'react'
-import use from '../../findtasker/page'
 
 export default function CreateForm() {
   const router = useRouter()
@@ -24,7 +23,7 @@ export default function CreateForm() {
          e.preventDefault()
          setIsLoading(true)
 
-         const work = {
+         const Git = {
                name,category,location,priority,date,time,price,ratings,total_work,details,
             }
 
@@ -35,11 +34,12 @@ export default function CreateForm() {
               },
             method: "POST",
             headers: {"Content-Type": "application/json"},
-            body: JSON.stringify(work)
+            body: JSON.stringify(Git)
          })
  
          if(res.status === 201){
                router.refresh()
+               
                router.push('/pages/findtasker')
             }
       }

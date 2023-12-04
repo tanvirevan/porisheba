@@ -20,7 +20,7 @@ export default function CreateForm() {
          e.preventDefault()
          setIsLoading(true)
 
-         const job = {
+         const work = {
                name,category,location, priority,date,time,price,details,
             }
 
@@ -31,11 +31,12 @@ export default function CreateForm() {
               },
             method: "POST",
             headers: {"Content-Type": "application/json"},
-            body: JSON.stringify(job)
+            body: JSON.stringify(work)
          })
  
          if(res.status === 201){
                router.refresh()
+
                router.push('/pages/findjobs')
             }
       }
