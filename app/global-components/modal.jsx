@@ -1,7 +1,8 @@
 import React from 'react'
 
-export default function modal({isVisible, onClose}) 
+export default function modal({isVisible, onClose,compo}) 
   {
+    const join = compo
     if(!isVisible) return null;
 
     const handleClose = (e) =>{
@@ -13,7 +14,7 @@ export default function modal({isVisible, onClose})
             <button className='text-white text-xl place-self-end' onClick={() => onClose}>X</button>
         </div>
         <div className='bg-white p-2 rounded'>
-            
+            {join}
         </div>
       </div>
     )

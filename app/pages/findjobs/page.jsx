@@ -6,6 +6,7 @@ import SearchBox from '@/app/global-components/filter/component/Search';
 import Filter from '../../global-components/filter/Filter';
 import Link from 'next/link';
 // import find from '../../global-components/button/find'
+import Select from '@/app/global-components/select';
 
 async function GetJobs()
   {
@@ -19,8 +20,10 @@ async function GetJobs()
     return res.json()
   }
 
-export default async function page() {
+export default async function page({category,time}) {
   const jobs = await GetJobs()
+  const AllServicesName = ['All Jobs','Home Service','professional service','Repair Service','Delivery service'];
+  const AllTimesNmae = ['Now','1h','2h','3h','4h+'];
   return (
     <main>
       <Navbar></Navbar>
@@ -39,23 +42,13 @@ export default async function page() {
       
         <div className='w-9/12'>
           <div className='flex items-center justify-between h-[40px]  rounded-md text-[#2b3035] px-4 shadow content-center mt-10'>
-            <select className="mx-1 px-2 rounded-md border-none outline-none" name="" id="">
-                <option className=' hover:rounded-md ' value="">All Jobs</option>
-                <option className=' hover:rounded-md ' value="">Home Service</option>
-                <option className=' hover:rounded-md ' value="">professional service</option>
-                <option className=' hover:rounded-md ' value="">Repair Service</option>
-                <option className=' hover:rounded-md ' value="">Delivery service</option>
-              </select>
+            {/* <Select id={category} names={['All Jobs','Home Service','professional service','Repair Service','Delivery service']}></Select> */}
+            <Select value={category} names={AllServicesName} ></Select>
+            
 
             <div className='flex'>
-              <h1>Time:</h1>
-              <select className="mx-1 px-2 rounded-md border-none outline-none" name="" id="">
-                <option className=' hover:rounded-md ' value="">Now</option>
-                <option className=' hover:rounded-md ' value="">1h</option>
-                <option className=' hover:rounded-md ' value="">2h</option>
-                <option className=' hover:rounded-md ' value="">3h</option>
-                <option className=' hover:rounded-md ' value="">4h+</option>
-              </select>
+              <h1 className='font-bold'>Time:</h1>
+              <Select value={time} names={AllTimesNmae}></Select>
             </div>
           </div>
       

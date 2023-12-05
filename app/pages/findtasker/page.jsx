@@ -4,6 +4,7 @@ import { Menu, Transition } from '@headlessui/react';
 import TaskerCard from './components/card'
 import SearchBox from '@/app/global-components/filter/component/Search';
 import Filter from '@/app/global-components/filter/Filter';
+import Select from '@/app/global-components/select';
 
 
 async function GetWorks()
@@ -17,8 +18,10 @@ async function GetWorks()
     return res.json()
   }
 
-export default async function page() {
+export default async function page({category,ratings}) {
   const works = await GetWorks()
+  const AllServicesName = ['All tasker','Home service tasker','Professional service tasker','Repair service tasker','Delivery service tasker'];
+  const AllRatingsNmae = ['All','2.5','3.5','4.5+'];
 
   return (
     <main>
@@ -45,26 +48,15 @@ export default async function page() {
 {/* Tasker Section Top Part*/}
         <div className='w-9/12'>
           <div className='flex items-center justify-between h-[40px] w-full  rounded-md text-[#2b3035] px-4 shadow content-center mt-10'>
-            <select className="mx-1 px-2 rounded-md border-none outline-none" name="" id="">
-                <option className=' hover:rounded-md ' value="">All Tasker</option>
-                <option className=' hover:rounded-md ' value="">Home Service Tasker</option>
-                <option className=' hover:rounded-md ' value="">professional service Tasker</option>
-                <option className=' hover:rounded-md ' value="">Repair Service Tasker</option>
-                <option className=' hover:rounded-md ' value="">Delivery service Tasker</option>
-            </select>
-            <div className='flex'>
-              <h1>Ratings:</h1>
-              <select className="mx-1 px-2 rounded-md border-none outline-none" name="" id="">
-                <option className=' hover:rounded-lg ' value="">All</option>
-                <option className=' hover:rounded-md ' value="">2.5</option>
-                <option className=' hover:rounded-md ' value="">3.5</option>
-                <option className=' hover:rounded-md ' value="">4.5+</option>
-              </select>
-            </div>
-          </div>
+            <Select value={category} names={AllServicesName} ></Select>
 
-  {/* Filter section main part */}
-        
+            <div className='flex'>
+              <h1 className='font-bold'>Ratings:</h1>
+              <Select value={ratings} names={AllRatingsNmae}></Select>
+            </div>
+
+          </div>
+     
           
   {/* Tasker main part */}
           <section className=' mt-4 w-full text-[#2b3035]'>

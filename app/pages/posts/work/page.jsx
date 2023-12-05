@@ -4,7 +4,6 @@ import { useState } from 'react'
 
 export default function CreateForm() {
   const router = useRouter()
-
   const [name, setname] = useState('')
   const [category, setcategory] = useState('')
   const [location, setlocation] = useState('')
