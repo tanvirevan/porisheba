@@ -1,5 +1,5 @@
-"use client"
-import React from 'react'
+"use client";
+import React from 'react';
 import TimeButton from '../../button/TimeButton';
 export default function FilterTime() {
   return (
@@ -11,5 +11,5 @@ export default function FilterTime() {
       <TimeButton Buttonlink='#' ButtonName='Newbie'></TimeButton>
    </div>
 </div>
-  )
+  );
 }

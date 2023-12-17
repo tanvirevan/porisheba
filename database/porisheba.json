@@ -100,6 +100,18 @@
       "total_work": "0 to 50",
       "details": "kfjdslkfjsklfjsklfjskfjklsdfjklsdjklsjfksjklfjsklfjsklfjsklfjksl",
       "id": 4
+    },
+    {
+      "name": "Rifat",
+      "category": "Professional Service",
+      "location": "Saidnogor",
+      "priority": "Elite Value",
+      "days": "sat-sun-mon",
+      "time": "12pm - 5pm",
+      "price": "5000",
+      "total_work": "50 to 100",
+      "details": "kdjflkasjflksjfklsjflksjfksdlfj",
+      "id": 5
     }
   ],
   "jobposts": [
@@ -111,7 +123,7 @@
       "date": "Flexible",
       "time": "anytime",
       "price": "3300",
-      "details": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
+      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
       "priority": "low",
       "user_email": "mario@netninja.dev"
     },
@@ -123,7 +135,7 @@
       "date": "Flexible",
       "time": "anytime",
       "price": "3100",
-      "details": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
+      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
       "priority": "low",
       "user_email": "mario@netninja.dev"
     },
@@ -135,7 +147,7 @@
       "date": "Flexible",
       "time": "anytime",
       "price": "1000",
-      "details": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
+      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
       "priority": "low",
       "user_email": "mario@netninja.dev"
     },
@@ -147,7 +159,7 @@
       "date": "Flexible",
       "time": "anytime",
       "price": "600",
-      "details": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
+      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
       "priority": "low",
       "user_email": "mario@netninja.dev"
     },

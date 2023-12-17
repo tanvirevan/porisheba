@@ -19,6 +19,7 @@ export default function card({work}) {
             </div>
             <div className=' w-1/2'>
                 <h1 className='font-bold mb-2'>{work.name}</h1>
+                <h1 className=' text-[15px] mb-2'>{work.category}</h1>
                 <h1 className='w-[121px] text-center pl-2 text-[15px] rounded bg-[#e4f5ee] text-[#1f7c5a]'>{work.priority}</h1>
                 <h className='pl-2 pr-1 text-[12px] font-bold mt-2'>Worked:{work.total_work} </h>
                 <p className='pl-2 text-[15px] font-bold'>Available:</p>
