@@ -119,7 +119,7 @@ body{
     z-index: 2;
 }
 
-.container.active .sign-in{
+.container.active .form-container.sign-in{
     transform: translateX(100%);
 }
 .sign-up{
@@ -129,7 +129,7 @@ body{
     z-index: 1;
 }
 
-.container.active .sign-up{
+.container.active .form-container.sign-up{
     transform: translateX(100%);
     opacity: 1;
     z-index: 5;

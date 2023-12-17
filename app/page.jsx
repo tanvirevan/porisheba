@@ -1,14 +1,16 @@
-import Image from 'next/image'
-import Navbar from './global-components/navbar/Navbar'
-import Link from 'next/link'
-import Userpage from "./pages/home/user/page";
-import modal from './global-components/modal';
+/* eslint-disable react/react-in-jsx-scope */
+'use client';
+import Guestpage from "./pages/home/guest/page";
+
+// import {signOut, useSession} from 'next-auth/react';
+
 export default function Home() {
+  // const session = useSession();
   return (
     <div>
-      <Userpage></Userpage>
-      <modal></modal>
+      {/* {session?.data.user.name}
+      <button onClick={() => signOut()}>logout</button> */}
+      <Guestpage></Guestpage>
     </div>
-    
-  )
+  );
 }

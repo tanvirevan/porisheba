@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Day from './component/Day';
 import Time from './component/Time';
 import Price from './component/Price';
@@ -12,5 +12,5 @@ export default function Filter() {
       <Price></Price>
       <TaskerType></TaskerType>
     </div>
-  )
+  );
 }

@@ -1,5 +1,5 @@
-"use client"
-import React from 'react'
+"use client";
+import React from 'react';
 import DayButton from '../../../global-components/button/DayButton';
 export default function Day() {
   return (
@@ -12,5 +12,5 @@ export default function Day() {
             <DayButton Buttonlink='#' ButtonName='All days'></DayButton>
       </div>
    </div>
-  )
+  );
 }

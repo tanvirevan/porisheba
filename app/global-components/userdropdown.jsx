@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/react-in-jsx-scope */
 import { Fragment, useState } from 'react';
@@ -5,12 +6,8 @@ import { Menu, Transition } from '@headlessui/react';
 import Link from 'next/link';
 import DropdownButton from './button/dropdown';
 
-export default function Dropdown() {
+export default function Dropdown({name}) {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
-
-  const toggleDropdown = () => {
-    setDropdownOpen(!isDropdownOpen);
-  };
   return (
     <div
       className="relative"
@@ -19,8 +16,8 @@ export default function Dropdown() {
     >
       <Menu>
         <div>
-          <Menu.Button className='text-base'>
-            Posts
+          <Menu.Button className='text-base py-0 px-0'>
+            {name}
           </Menu.Button>
         </div>
 
@@ -33,12 +30,20 @@ export default function Dropdown() {
             <div className="py-1">
 {/* Home Service Button */}
                 <Menu.Item>
-                    <DropdownButton Buttonlink="/pages/posts/jobs" ButtonName="Work Post" />
+                    <DropdownButton Buttonlink="#" ButtonName="Profile" />
+                </Menu.Item>
+
+                <Menu.Item>
+                    <DropdownButton Buttonlink="#" ButtonName="History" />
+                </Menu.Item>  
+
+               <Menu.Item>
+                    <DropdownButton Buttonlink="#" ButtonName="Join as a Tasker" />
                 </Menu.Item>
 
 {/* Professiona Service Button */}
                 <Menu.Item>
-                    <DropdownButton Buttonlink="/pages/posts/gits" ButtonName="Git Post" />
+                    <DropdownButton Buttonlink="/" ButtonName="logout" />
                 </Menu.Item>
                 
             </div>

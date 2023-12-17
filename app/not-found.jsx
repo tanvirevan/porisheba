@@ -1,4 +1,5 @@
-import Link from "next/link"
+/* eslint-disable react/react-in-jsx-scope */
+import Link from "next/link";
 
 export default async function NotFound()
    {
@@ -9,5 +10,5 @@ export default async function NotFound()
             <p>We could not find, you were looking for.</p>
             <p>Go Back to <Link href="/">Home</Link></p>
          </main>
-      )
+      );
    }

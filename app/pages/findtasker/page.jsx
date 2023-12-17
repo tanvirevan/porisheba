@@ -1,10 +1,11 @@
-import Navbar from '../../global-components/navbar/Navbar'
-import React from 'react'
-import { Menu, Transition } from '@headlessui/react';
-import TaskerCard from './components/card'
-import SearchBox from '@/app/global-components/filter/component/Search';
-import Filter from '@/app/global-components/filter/Filter';
-import Select from '@/app/global-components/select';
+// import Navbar from '../../global-components/navbar/Navbar';
+import React from 'react';
+
+import TaskerCard from './components/card';
+import SearchBox from '../../global-components/filter/component/Search';
+import Filter from '../../global-components/filter/Filter';
+import Select from '../../global-components/select';
+import Link from 'next/link';
 
 
 async function GetWorks()
@@ -13,19 +14,19 @@ async function GetWorks()
       next:{
           revalidate: 0
         }
-    })
+    });
 
-    return res.json()
+    return res.json();
   }
 
 export default async function page({category,ratings}) {
-  const works = await GetWorks()
+  const works = await GetWorks();
   const AllServicesName = ['All tasker','Home service tasker','Professional service tasker','Repair service tasker','Delivery service tasker'];
   const AllRatingsNmae = ['All','2.5','3.5','4.5+'];
 
   return (
     <main>
-      <Navbar></Navbar>
+      {/* <Navbar></Navbar> */}
 
       <div className='flex gap-10'>
       <div className='w-3/12'>
@@ -64,7 +65,11 @@ export default async function page({category,ratings}) {
               <div className='grid gap-4 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2'>
                 {
                   works.map((work) =>(
-                    <TaskerCard key={work.id} work={work} ></TaskerCard>
+                    <div key={work.id}>
+                      <Link  href = {`/pages/findtasker/${work.id}`}>
+                        <TaskerCard work={work} ></TaskerCard>
+                      </Link>
+                    </div>
                   ))
                 }
               </div>
@@ -73,5 +78,5 @@ export default async function page({category,ratings}) {
         </div>
       </div>
     </main>
-  )
+  );
 }

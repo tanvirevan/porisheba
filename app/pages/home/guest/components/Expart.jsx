@@ -1,7 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
 import ExpartA from '../../resorce/ExpartA.png';
-
 import Checked from '../../resorce/check-solid.svg';
 import Link from 'next/link';
 export default function Expart() {

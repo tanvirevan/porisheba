@@ -1,7 +1,6 @@
-"use client"
+/* eslint-disable react/prop-types */
+"use client";
 import React, { useState } from 'react';
-import './search.css';
-
 export default function SearchBox ({placeholdertext})  {
   const [searchTerm, setSearchTerm] = useState('');
 
@@ -21,7 +20,7 @@ export default function SearchBox ({placeholdertext})  {
       </head>
       <div className='overflow-hidden text-[#001c5e] items-center flex relative border-2 border-[#001c5e]  focus:outline-[#001c5e] rounded-md'>
         <div className='items-center pl-2 py-center'>
-          <i class="fa-solid fa-magnifying-glass"></i>
+          <i className="fa-solid fa-magnifying-glass"></i>
         </div>
         <input className='p-2 w-full outline-none'
           type="text"
@@ -30,10 +29,10 @@ export default function SearchBox ({placeholdertext})  {
           onChange={handleInputChange}
         />
         <button className=' w-1/6 font-bold hover:bg-[#001c5e] hover:text-white p-3 hover:rounded-e-md hover:border ease-in duration-300' onClick={handleSearch}>
-        <i class="fa-solid fa-right-to-bracket"></i>
+        <i className="fa-solid fa-right-to-bracket"></i>
         </button>
       </div>
     </div>
   );
-};
+}
 

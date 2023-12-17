@@ -1,30 +1,51 @@
 {
-  "user": [
+  "users": [
     {
-      "taskholder": {
-        "id": "1",
-        "user_name": "Tanvr",
-        "user_email": "tanvir@gmail.com",
-        "Veryfied": "Yes"
-      },
-      "tasker": {
-        "nid": "1234",
-        "skills": {},
-        "status": "PROFESSIONAL",
-        "ratings": "4.9",
-        "details": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
-        "total_work": "300++",
-        "price": "250",
-        "time": "anytime",
-        "Veryfied": "Yes"
-      },
-      "payment": {
-        "id": "1",
-        "time": "",
-        "getway": {
-          "Bkash": {
-            "pay": "300"
-          }
+      "id": "1",
+      "user_name": "Tanvr",
+      "user_email": "tanvir@gmail.com",
+      "password": "",
+      "Veryfied": ""
+    },
+    {
+      "name": "Tanvir Islam",
+      "email": "pro.tanvirevan@gmail.com",
+      "password": "1234567",
+      "id": "zzPsCke"
+    },
+    {
+      "name": "TANVIR MIA",
+      "email": "tmia@gmail.com",
+      "password": "987654321",
+      "id": "NHLdL6A"
+    },
+    {
+      "name": "Tanvir Islam",
+      "email": "t1234@gmil.com",
+      "password": "1234567",
+      "id": "lnFxB9d"
+    }
+  ],
+  "taskers": [
+    {
+      "nid": "1234",
+      "skills": {},
+      "status": "PROFESSIONAL",
+      "ratings": "4.9",
+      "details": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
+      "total_work": "300++",
+      "price": "250",
+      "time": "anytime",
+      "Veryfied": ""
+    }
+  ],
+  "payments": [
+    {
+      "id": "1",
+      "time": "",
+      "getway": {
+        "Bkash": {
+          "pay": "300"
         }
       }
     }
@@ -55,12 +76,24 @@
       "total_work": "100+",
       "details": "dfffsfsfsdfsdfsdfasfsdsafsdf",
       "id": 2
+    },
+    {
+      "name": "need work",
+      "category": "Home Service",
+      "location": "Notunbazar",
+      "priority": "Great Value",
+      "days": "sat-sun-mon",
+      "time": "12pm - 5pm",
+      "price": "400",
+      "total_work": "0 to 50",
+      "details": "fgdgsdsdgdfgdfg",
+      "id": 3
     }
   ],
   "jobposts": [
     {
       "id": "2",
-      "name": "fsdfsfsfsFix2",
+      "title": "fsdfsfsfsFix2",
       "category": "Home Service",
       "location": "Remote",
       "date": "Flexible",
@@ -72,7 +105,7 @@
     },
     {
       "id": "3",
-      "name": "Fix3",
+      "title": "Fix3",
       "category": "Repar Service",
       "location": "Remote",
       "date": "Flexible",
@@ -84,7 +117,7 @@
     },
     {
       "id": "4",
-      "name": "Fix4",
+      "title": "Fix4",
       "category": "Home Service",
       "location": "Remote",
       "date": "Flexible",
@@ -149,6 +182,17 @@
       "price": "456",
       "details": "dfsdfsdfsdfdfsdfsd",
       "id": "fuWIovy"
+    },
+    {
+      "name": "need water",
+      "category": "Home Service",
+      "location": "Notunbazar",
+      "priority": "",
+      "date": "2023-12-14",
+      "time": "12pm - 5pm",
+      "price": "400",
+      "details": "dfsdfsfsdfsdfsdfsfsdsfsd",
+      "id": "f1zvGLY"
     }
   ]
 }

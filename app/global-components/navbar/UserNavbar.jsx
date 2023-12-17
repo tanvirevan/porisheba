@@ -6,14 +6,15 @@ import Link from 'next/link';
 import Image from 'next/image';
 import porisebaN from './porishebaN.png';
 import { usePathname } from 'next/navigation';
-import Dropdown from '../dropdown';
+import N_Dropdown from '../dropdown';
+import U_Dropdown from '../userdropdown';
 import NavButton from '../button/NavButton';
 import ServicesButton from '../button/Services';
 import JoinButton from '../button/JoinButton';
 
 
 
-export default function Navbar ()
+export default function Navbar ({name})
    {
       const [isSidebarOpen, setSidebarOpen] = useState(false);
       const toggleSidebar = () => 
@@ -51,16 +52,16 @@ export default function Navbar ()
                   <div className={`md:flex items-center gap-3 nav-links duration-500 md:static absolute md:min-h-fit min-h-[60vh] left-0 top-   [-100%] md:w-auto  w-full ${isSidebarOpen ? 'left-0' : 'left-[100%]'}`}>
 
       {/* Home Button */}
-                        <NavButton Buttonlink='/' ButtonName='Home'></NavButton>
+                        <NavButton Buttonlink="/" ButtonName='Home'></NavButton>
 
       {/* Dropdown Button */}
-                        <ServicesButton Buttonlink='#' ButtonName={<Dropdown></Dropdown>}></ServicesButton>
+                        <ServicesButton Buttonlink='#' ButtonName={<N_Dropdown></N_Dropdown>}></ServicesButton>
 
       {/* FindTasker Button */}
-                        <NavButton Buttonlink='/pages/findtasker' ButtonName='Find Tasker'></NavButton>
+                        <NavButton Buttonlink='/pages/home/findtasker' ButtonName='Find Tasker'></NavButton>
 
       {/* FindJobs Button */}
-                        <NavButton Buttonlink='/pages/findjobs' ButtonName='Find Jobs'></NavButton>
+                        <NavButton Buttonlink='/pages/home/findjobs' ButtonName='Find Jobs'></NavButton>
 
       {/* Join Button */}
                         {/* <Fragment>
@@ -69,7 +70,7 @@ export default function Navbar ()
                               {<Join></Join>}
                            </Modal>
                      </Fragment> */}
-                        <JoinButton Buttonlink='/pages/join/login' ButtonName='LogIn'></JoinButton>
+                        <JoinButton Buttonlink='#' ButtonName={<U_Dropdown name={name}></U_Dropdown>}></JoinButton>
                   </div>
                </nav>
             </section>

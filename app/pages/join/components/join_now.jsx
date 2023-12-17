@@ -1,7 +1,13 @@
-import React from 'react'
-import './style.css'
-import Link from 'next/link'
+/* eslint-disable react/react-in-jsx-scope */
+/* eslint-disable no-undef */
+import './style.css';
+import Link from 'next/link';
+
+
+
+
 export default function logincomponet() {
+
   return (
    <div>
       <head>
@@ -10,36 +16,36 @@ export default function logincomponet() {
       </head>
       <div className="container" id="container">
          <div className="form-container sign-up">
-            <form>
+            <form onSubmit={handleSubmit}>
                <h1>Create Account</h1>
                <div className="social-icons">
-                  <a href="#" className='bordar-5 hover:border-[#001c5e] hover:text-gray-950 ease-in duration-300'>
-                     <i class="fa-brands fa-google"></i>
+                  <a  href="#" className='bordar-5 hover:border-[#001c5e] hover:text-gray-950 ease-in duration-300'>
+                     <i className="fa-brands fa-google"></i>
                   </a>
                   <a href="#"className='bordar-5 hover:border-[#001c5e] hover:text-gray-950 ease-in duration-300'>
                      <i className="fa-brands fa-facebook-f"></i>
                   </a>
                   <a href="#" className='bordar-5 hover:border-[#001c5e] hover:text-gray-950 ease-in duration-300'>
-                     <i class="fa-brands fa-apple"></i>
+                     <i className="fa-brands fa-apple"></i>
                   </a>
                </div>
                <span className='mb-2'>or use your email for registration</span>
 
                <div className='singup-name w-full'>
-                  <label className='' for="">Name<span className='text-[red]'>*</span></label>
+                  <label className='' htmlFor="">Name<span className='text-[red]'>*</span></label>
                   <input className="shadow-inner border-2 focus:border-[#001c5e] focus:rounded-[14px] ease-in duration-300" type="text" placeholder="Your Name" required/>
                   
                </div>
 
                <div className='singup-name w-full'>
-                  <label For="">Email<span className='text-[red]'>*</span></label>
-                  <i class="fa-solid fa-envelope"></i>
+                  <label htmlFor="">Email<span className='text-[red]'>*</span></label>
+                  <i className="fa-solid fa-envelope"></i>
                   <input className="shadow-inner border-2 focus:border-[#001c5e] focus:rounded-[14px] ease-in duration-300" type="email" placeholder="example@gmail.com" required/>
                </div>
                
                <div className='singup-name w-full'>
-                  <label For="">Password<span className='text-[red]'>*</span></label>
-                  <i class="fa-solid fa-lock"></i>
+                  <label htmlFor="">Password<span className='text-[red]'>*</span></label>
+                  <i className="fa-solid fa-lock"></i>
                   <input className="shadow-inner border-2 focus:border-[#001c5e] focus:rounded-[14px] ease-in duration-300" type="password" placeholder="8+ strong character" required/>
                </div>
 
@@ -55,29 +61,30 @@ export default function logincomponet() {
             <form>
                <h1 className=''>Sign In</h1>
                <div className="social-icons">
-                  <a href="#" className='bordar-5 hover:border-[#001c5e]
+
+                  <a href='#' className='bordar-5 hover:border-[#001c5e]
                   hover:text-gray-950 ease-in duration-300'>
-                     <i class="fa-brands fa-google"></i>
+                     <i className="fa-brands fa-google"></i>
                   </a>
                   <a href="#"className='bordar-5 hover:border-[#001c5e] hover:text-gray-950 ease-in duration-300'>
                      <i className="fa-brands fa-facebook-f"></i>
                   </a>
                   <a href="#" className='bordar-5 hover:border-[#001c5e] hover:text-gray-950 ease-in duration-300'>
-                     <i class="fa-brands fa-apple"></i>
+                     <i className="fa-brands fa-apple"></i>
                   </a>
                </div>
                <span className='mb-2 '>or use your email password</span>
 
                <div className='singup-name w-full'>
                   <label htmlFor="">Email<span className='text-[red]'>*</span></label>
-                  <i class="fa-solid fa-envelope"/>
+                  <i className="fa-solid fa-envelope"/>
                   <input  className="shadow-inner border-2 focus:border-[#001c5e] focus:rounded-[14px] ease-in duration-300" type="email" placeholder="example@gmail.com" required/>
                </div>
 
                <div className='singup-name mb-[-8px] w-full'>
                   <label htmlFor="">Password<span className='text-[red]'>*</span></label>
 
-                  <i class="fa-solid fa-lock"></i>
+                  <i className="fa-solid fa-lock"></i>
                   <input className="shadow-inner border-2 focus:border-[#001c5e] focus:rounded-[14px] ease-in duration-300" type="password" placeholder="8+ strong character" required/>
 
                </div>
@@ -113,5 +120,5 @@ export default function logincomponet() {
          </div>
       </div>
    </div>
-  )
+  );
 }
