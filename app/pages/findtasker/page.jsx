@@ -64,7 +64,7 @@ export default async function page({category,ratings}) {
             <div className='mt-2 mb-2'>
               <div className='grid gap-4 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2'>
                 {
-                  works.map((work) =>(
+                  works.reverse().map((work) =>(
                     <div key={work.id}>
                       <Link  href = {`/pages/findtasker/${work.id}`}>
                         <TaskerCard work={work} ></TaskerCard>

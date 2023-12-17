@@ -57,7 +57,7 @@ export default async function page({category,time}) {
             <div className='mt-2'>
               <div className='grid gap-4 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3'>
                 {
-                  jobs.map(job =>(
+                  jobs.reverse().map(job =>(
                     <div key={job.id}>
                       <Link href = {`/pages/findjobs/${job.id}`}>
                         <JobsCard job={job}> </JobsCard>

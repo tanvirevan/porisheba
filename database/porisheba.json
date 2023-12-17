@@ -8,19 +8,19 @@
       "Veryfied": ""
     },
     {
-      "name": "Tanvir Islam",
+      "job_name": "Tanvir Islam",
       "email": "pro.tanvirevan@gmail.com",
       "password": "1234567",
       "id": "zzPsCke"
     },
     {
-      "name": "TANVIR MIA",
+      "job_name": "TANVIR MIA",
       "email": "tmia@gmail.com",
       "password": "987654321",
       "id": "NHLdL6A"
     },
     {
-      "name": "Tanvir Islam",
+      "job_name": "Tanvir Islam",
       "email": "t1234@gmil.com",
       "password": "1234567",
       "id": "lnFxB9d"
@@ -88,59 +88,71 @@
       "total_work": "0 to 50",
       "details": "fgdgsdsdgdfgdfg",
       "id": 3
+    },
+    {
+      "name": "Rifat",
+      "category": "Repair Service",
+      "location": "Notunbazar",
+      "priority": "Elite Value",
+      "days": "sat-sun-mon",
+      "time": "8am - 11am",
+      "price": "500",
+      "total_work": "0 to 50",
+      "details": "kfjdslkfjsklfjsklfjskfjklsdfjklsdjklsjfksjklfjsklfjsklfjsklfjksl",
+      "id": 4
     }
   ],
   "jobposts": [
     {
       "id": "2",
-      "title": "fsdfsfsfsFix2",
+      "job_name": "fsdfsfsfsFix2",
       "category": "Home Service",
       "location": "Remote",
       "date": "Flexible",
       "time": "anytime",
       "price": "3300",
-      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
+      "details": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
       "priority": "low",
       "user_email": "mario@netninja.dev"
     },
     {
       "id": "3",
-      "title": "Fix3",
+      "job_name": "Fix3",
       "category": "Repar Service",
       "location": "Remote",
       "date": "Flexible",
       "time": "anytime",
       "price": "3100",
-      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
+      "details": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
       "priority": "low",
       "user_email": "mario@netninja.dev"
     },
     {
       "id": "4",
-      "title": "Fix4",
+      "job_name": "Fix4",
       "category": "Home Service",
       "location": "Remote",
       "date": "Flexible",
       "time": "anytime",
       "price": "1000",
-      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
+      "details": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
       "priority": "low",
       "user_email": "mario@netninja.dev"
     },
     {
       "id": "5",
-      "name": "Fijhjksjksjdksljlkjklfsdjx5",
+      "job_name": "Fijhjksjksjdksljlkjklfsdjx5",
       "category": "Repar Service",
       "location": "Remote",
       "date": "Flexible",
       "time": "anytime",
       "price": "600",
-      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
+      "details": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf...",
       "priority": "low",
       "user_email": "mario@netninja.dev"
     },
     {
-      "name": "pani cai",
+      "job_name": "pani cai",
       "category": "delivery Service",
       "location": "Saidnogor",
       "priority": "",
@@ -151,7 +163,7 @@
       "id": "VV81ftb"
     },
     {
-      "name": "Rifat khabe na",
+      "job_name": "Rifat khabe na",
       "category": "Repair Service",
       "location": "Saidnogor",
       "priority": "",
@@ -162,7 +174,7 @@
       "id": "l0P5RSw"
     },
     {
-      "name": "amar nam rifat",
+      "job_name": "amar nam rifat",
       "category": "Professional Service",
       "location": "Bosundhora",
       "priority": "",
@@ -173,7 +185,7 @@
       "id": "HA2gz3y"
     },
     {
-      "name": "ami na chini na",
+      "job_name": "ami na chini na",
       "category": "Home Service",
       "location": "Gulsan",
       "priority": "",
@@ -184,7 +196,7 @@
       "id": "fuWIovy"
     },
     {
-      "name": "need water",
+      "job_name": "need water",
       "category": "Home Service",
       "location": "Notunbazar",
       "priority": "",
@@ -193,6 +205,16 @@
       "price": "400",
       "details": "dfsdfsfsdfsdfsdfsfsdsfsd",
       "id": "f1zvGLY"
+    },
+    {
+      "job_name": "clean my home",
+      "category": "Home Service",
+      "location": "Saidnogor",
+      "date": "2023-12-14",
+      "time": "8am - 11am",
+      "price": "4000",
+      "details": "hdfjasdfsdfkjfksdkfsjdlkfjsdkfjsdlkfjksdjfklsdjkljklfjsdkljflk",
+      "id": "O_Q0yN7"
     }
   ]
 }

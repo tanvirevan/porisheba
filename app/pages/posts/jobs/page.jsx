@@ -8,7 +8,7 @@ import { collection, addDoc } from 'firebase/firestore/lite';
 export default function CreateForm() {
   
   const router = useRouter();
-  const [name, setname] = useState('');
+  const [job_name, setname] = useState('');
   const [category, setcategory] = useState('');
   const [location, setlocation] = useState('');
   const [date, setdate] = useState('');
@@ -23,25 +23,25 @@ export default function CreateForm() {
          e.preventDefault();
          setIsLoading(true);
 
-        //  const work = {
-        //        name,category,location,date,time,price,details,
-        //     };
+         const work = {
+               job_name,category,location,date,time,price,details,
+            };
 
-        //  const res = await fetch ('http://localhost:4000/jobposts', {
-        //     next:
-        //       {
-        //         revalidate: 0
-        //       },
-        //     method: "POST",
-        //     headers: {"Content-Type": "application/json"},
-        //     body: JSON.stringify(work)
-        //  });
+         const res = await fetch ('http://localhost:4000/jobposts', {
+            next:
+              {
+                revalidate: 0
+              },
+            method: "POST",
+            headers: {"Content-Type": "application/json"},
+            body: JSON.stringify(work)
+         });
  
-        //  if(res.status === 201){
-        //        router.refresh();
+         if(res.status === 201){
+               router.refresh();
 
-        //        router.push('/pages/findjobs');
-        //     }
+               router.push('/pages/findjobs');
+            }
       };
 
 
@@ -55,7 +55,7 @@ export default function CreateForm() {
               required
               type="text"
               onChange={(e) => setname(e.target.value)}
-              value={name}
+              value={job_name}
           />
         </label>
 

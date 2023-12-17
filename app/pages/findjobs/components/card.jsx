@@ -15,7 +15,7 @@ export default async function card({job})
             <div key={job} >
                 <div className='p-4 flex rounded-md shadow-md border hover:bg-gray-200'>
                   <div className='w-3/4'>
-                    <p className='text-[#061257] font-bold overflow-hidden'>{job.title}</p>
+                    <p className='text-[#061257] font-bold overflow-hidden'>{job.job_name}</p>
                     <div className=' flex items-center justify-items-center mt-1 text-[#6a719a]'>
                       <i className="pr-2 fa-solid fa-layer-group"></i>
                       <h1 className='font-bold'>{job.category}</h1>

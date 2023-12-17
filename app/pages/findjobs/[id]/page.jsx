@@ -21,7 +21,7 @@ export default async function JobDetails({params}) {
         />
       </head>
       <div className="w-1/2">
-        <h1 className="mt-5 mb-5 text-[20px] text-gray-950">{job.title}</h1>
+        <h1 className="mt-5 mb-5 text-[20px] text-gray-950">{job.job_name}</h1>
         
         <div className="flex justify-between mb-2 items-center">
           <div className="flex items-center">
@@ -63,7 +63,7 @@ export default async function JobDetails({params}) {
         <div>
           <h1 className="text-gray-950 text-center">Details</h1>
           <p className="pl-2 text-gray-500">
-            {job.body}
+            {job.details}
           </p>
         </div>
       </div>
